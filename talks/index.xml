@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks on Matteo Croci</title>
+    <link>https://croci.github.io/talks/</link>
+    <description>Recent content in Talks on Matteo Croci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Wed, 27 Feb 2019 12:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://croci.github.io/talks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Selected Presentations</title>
+      <link>https://croci.github.io/talks/siamcse2019/</link>
+      <pubDate>Wed, 27 Feb 2019 12:00:00 +0000</pubDate>
+      
+      <guid>https://croci.github.io/talks/siamcse2019/</guid>
+      <description>M. Croci, M. B. Giles, M. E. Rognes, and P. E. Farrell, MLQMC Methods for Elliptic PDEs Driven by White Noise, SIAM CSE 2019, Spokane, USA and ICIAM 2019, Valencia, Spain. Download. When solving partial differential equations driven by additive spatial white noise, the efficient sampling of white noise realizations can be challenging. In this paper we focus on the efficient sampling of white noise using quasi-random points in a finite element method and multilevel Quasi Monte Carlo (MLQMC) setting.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://croci.github.io/talks/mcqmc2018/</link>
+      <pubDate>Mon, 01 Jan 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://croci.github.io/talks/mcqmc2018/</guid>
+      <description>M. Croci, M. B. Giles, M. E. Rognes, and P. E. Farrell, Efficient white noise sampling and coupling for multilevel Monte Carlo, MCQMC 2018, Rennes, France. Download. When solving stochastic partial differential equations (SPDEs) driven by additive spatial white noise the efficient sampling of white noise realizations can be challenging. In this talk we present a novel sampling technique that can be used to efficiently compute white noise samples in a finite element and multilevel Monte Carlo (MLMC) setting.</description>
+    </item>
+    
+  </channel>
+</rss>

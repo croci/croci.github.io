@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Matteo Croci</title>
+    <link>https://croci.github.io/publications/</link>
+    <description>Recent content in Publications on Matteo Croci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Tue, 20 Nov 2018 12:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://croci.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Publications</title>
+      <link>https://croci.github.io/publications/stochastic_rounding2020/</link>
+      <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://croci.github.io/publications/stochastic_rounding2020/</guid>
+      <description>M. Croci, M. B. Giles, Effects of round-to-nearest and stochastic rounding in the numerical solution of the heat equation in low precision, submitted to SINUM (2020). Preprint. Motivated by the advent of machine learning, the last few years saw the return of hardware-supported low-precision computing. Computations with fewer digits are faster and more memory and energy efficient, but can be extremely susceptible to rounding errors. An application that can largely benefit from the advantages of low-precision computing is the numerical solution of partial differential equations (PDEs), but a careful implementation and rounding error analysis are required to ensure that sensible results can still be obtained.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://croci.github.io/publications/mlqmc_white_noise2018/</link>
+      <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://croci.github.io/publications/mlqmc_white_noise2018/</guid>
+      <description>M. Croci, M. B. Giles, M. E. Rognes, and P. E. Farrell, Multilevel quasi Monte Carlo methods for elliptic partial differential equations driven by spatial white noise, submitted to SISC. Preprint, Talk. When solving partial differential equations driven by additive spatial white noise, the efficient sampling of white noise realizations can be challenging. In this paper we focus on the efficient sampling of white noise using quasi-random points in a finite element method and multilevel Quasi Monte Carlo (MLQMC) setting.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://croci.github.io/publications/mlmc_qmc_brain_2020/</link>
+      <pubDate>Sat, 20 Oct 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://croci.github.io/publications/mlmc_qmc_brain_2020/</guid>
+      <description>M. Croci, V. Vinje and M. E. Rognes, Fast uncertainty quantification of tracer distribution in the brain interstitial fluid with multilevel and quasi Monte Carlo, International Journal for Numerical Methods in Biomedical Engineering. Preprint. Efficient uncertainty quantification algorithms are key to understand the propagation of uncertainty &amp;ndash; from uncertain input parameters to uncertain output quantities &amp;ndash; in high resolution mathematical models of brain physiology. Advanced Monte Carlo methods such as quasi Monte Carlo (QMC) and multilevel Monte Carlo (MLMC) have the potential to dramatically improve upon standard Monte Carlo (MC) methods, but their applicability and performance in biomedical applications is underexplored.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://croci.github.io/publications/quasi-uniform-supermeshing/</link>
+      <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://croci.github.io/publications/quasi-uniform-supermeshing/</guid>
+      <description>M. Croci and P. E. Farrell, Complexity bounds on supermesh construction for quasi-uniform meshes, Journal of Computational Physics 414 (2020), pp. 1–7. Article. Preprint. Projecting fields between different meshes commonly arises in computational physics. This operation may require a supermesh construction and in this case its computational cost is proportional to the number of cells of the supermesh n. Given any two quasi-uniform meshes of nA and nB cells respectively, we show under standard assumptions that n is proportional to nA + nB.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://croci.github.io/publications/uq_parenchymal_tracer_distribution2019/</link>
+      <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://croci.github.io/publications/uq_parenchymal_tracer_distribution2019/</guid>
+      <description>M. Croci, V. Vinje, M. E. Rognes, Uncertainty quantification of parenchymal tracer distribution using random diffusion and convective velocity fields, Fluids and Barriers of the CNS 16-1 (2019), pp. 1-32. Article. Background: Influx and clearance of substances in the brain parenchyma occur by a combination of diffusion and convection, but the relative importance of thiese mechanisms is unclear. Accurate modeling of tracer distributions in the brain relies on parameters that are partially unknown and with literature values varying up to 7 orders of magnitude.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://croci.github.io/publications/efficient_white_noise2018/</link>
+      <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://croci.github.io/publications/efficient_white_noise2018/</guid>
+      <description>M. Croci, M. B. Giles, M. E. Rognes, and P. E. Farrell, Efficient white noise sampling and coupling for multilevel Monte Carlo with non-nested meshes, SIAM/ASA Journal on Uncertainty Quantification 6-4 (2018), pp. 1630-1655. Article. Talk. When solving stochastic partial differential equations (SPDEs) driven by additive spatial white noise, the efficient sampling of white noise realizations can be challenging. Here, we present a new sampling technique that can be used to efficiently compute white noise samples in a finite element method (FEM) and multilevel Monte Carlo (MLMC) setting.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://croci.github.io/publications/semismooth_deflation2018/</link>
+      <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://croci.github.io/publications/semismooth_deflation2018/</guid>
+      <description>P. E. Farrell, M. Croci, T. M. Surowiec, Deflation for semismooth equations, Optimization Methods and Software (2019). Article. Variational inequalities can in general support distinct solutions. In this paper we study an algorithm for computing distinct solutions of a variational inequality, with- out varying the initial guess supplied to the solver. The central idea is the combi- nation of a semismooth Newton method with a deflation operator that eliminates known solutions from consideration.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://croci.github.io/publications/_title/</link>
+      <pubDate>Sat, 01 Feb 2020 12:00:00 +0000</pubDate>
+      
+      <guid>https://croci.github.io/publications/_title/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
