@@ -1,2 +1,2 @@
 RewriteEngine On
-Redirect 301 /croci/service https://croci.github.io
+Redirect 301 ^/service/.*$ /
