@@ -1,2 +1,2 @@
-RewriteEngine On
-Redirect /service/(.*)$ / [R=301,L]
+RewriteEngine on
+RewriteRule ^/?service/ /index.html [R=301,L]
