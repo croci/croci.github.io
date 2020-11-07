@@ -176,58 +176,5 @@
       <description>M. Croci, M. B. Giles, M. E. Rognes, and P. E. Farrell, Efficient white noise sampling and coupling for multilevel Monte Carlo, MCQMC 2018, Rennes, France. Download. When solving stochastic partial differential equations (SPDEs) driven by additive spatial white noise the efficient sampling of white noise realizations can be challenging. In this talk we present a novel sampling technique that can be used to efficiently compute white noise samples in a finite element and multilevel Monte Carlo (MLMC) setting.</description>
     </item>
     
-    <item>
-      <title>Vivamus Lacus Mauris</title>
-      <link>https://croci.github.io/post/vivamus-lacus-mauris/</link>
-      <pubDate>Mon, 17 Jun 2013 12:00:00 +0000</pubDate>
-      
-      <guid>https://croci.github.io/post/vivamus-lacus-mauris/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, rerum voluptates veniam. Esse, nihil, ea, eaque, quos cum id tempore voluptate nisi nemo debitis impedit officiis culpa repellat voluptatum in aperiam error quo minima ratione ex pariatur maxime eligendi dolore nesciunt molestiae enim alias atque commodi delectus perferendis. Blanditiis, iste placeat nostrum in! Eligendi, omnis, unde, quos ullam nesciunt molestias quis a saepe nisi distinctio molestiae voluptate obcaecati officiis consequuntur similique aspernatur rerum sequi placeat iure quaerat itaque libero officia recusandae ad corrupti aperiam cum beatae.</description>
-    </item>
-    
-    <item>
-      <title>Application development</title>
-      <link>https://croci.github.io/service/service3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://croci.github.io/service/service3/</guid>
-      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Custom website design</title>
-      <link>https://croci.github.io/service/service1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://croci.github.io/service/service1/</guid>
-      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>SEO &amp; SEM services</title>
-      <link>https://croci.github.io/service/service4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://croci.github.io/service/service4/</guid>
-      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Wordpress integration</title>
-      <link>https://croci.github.io/service/service2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://croci.github.io/service/service2/</guid>
-      <description>&lt;p&gt;I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
   </channel>
 </rss>

@@ -81,21 +81,8 @@
   </url>
   
   <url>
-    <loc>https://croci.github.io/post/vivamus-lacus-mauris/</loc>
-    <lastmod>2013-06-17T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://croci.github.io/service/service3/</loc>
-  </url>
-  
-  <url>
     <loc>https://croci.github.io/categories/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://croci.github.io/service/service1/</loc>
   </url>
   
   <url>
@@ -110,23 +97,8 @@
   </url>
   
   <url>
-    <loc>https://croci.github.io/post/</loc>
-    <lastmod>2013-06-17T12:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://croci.github.io/publications/</loc>
     <lastmod>2018-11-20T12:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://croci.github.io/service/service4/</loc>
-  </url>
-  
-  <url>
-    <loc>https://croci.github.io/service/</loc>
     <priority>0</priority>
   </url>
   
@@ -139,10 +111,6 @@
     <loc>https://croci.github.io/talks/</loc>
     <lastmod>2019-02-27T12:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://croci.github.io/service/service2/</loc>
   </url>
   
 </urlset>
