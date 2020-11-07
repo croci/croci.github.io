@@ -1,2 +1,2 @@
 RewriteEngine On
-Redirect ^/service/(.*)$ / [R=301,L]
+Redirect /service/(.*)$ / [R=301,L]
