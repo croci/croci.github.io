@@ -74,14 +74,5 @@
       <description>P. E. Farrell, M. Croci, T. M. Surowiec, Deflation for semismooth equations, Optimization Methods and Software (2019). Article. Variational inequalities can in general support distinct solutions. In this paper we study an algorithm for computing distinct solutions of a variational inequality, with- out varying the initial guess supplied to the solver. The central idea is the combi- nation of a semismooth Newton method with a deflation operator that eliminates known solutions from consideration.</description>
     </item>
     
-    <item>
-      <title>Publications</title>
-      <link>https://croci.github.io/publications/_title/</link>
-      <pubDate>Sat, 01 Feb 2020 12:00:00 +0000</pubDate>
-      
-      <guid>https://croci.github.io/publications/_title/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
