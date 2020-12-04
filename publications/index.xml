@@ -17,7 +17,7 @@
       <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
       
       <guid>https://croci.github.io/publications/stochastic_rounding2020/</guid>
-      <description>M. Croci, M. B. Giles, Effects of round-to-nearest and stochastic rounding in the numerical solution of the heat equation in low precision, submitted to SINUM (2020). Preprint. Motivated by the advent of machine learning, the last few years saw the return of hardware-supported low-precision computing. Computations with fewer digits are faster and more memory and energy efficient, but can be extremely susceptible to rounding errors. An application that can largely benefit from the advantages of low-precision computing is the numerical solution of partial differential equations (PDEs), but a careful implementation and rounding error analysis are required to ensure that sensible results can still be obtained.</description>
+      <description>M. Croci, M. B. Giles, Effects of round-to-nearest and stochastic rounding in the numerical solution of the heat equation in low precision, submitted to SINUM (2020). Preprint. Slides. Motivated by the advent of machine learning, the last few years saw the return of hardware-supported low-precision computing. Computations with fewer digits are faster and more memory and energy efficient, but can be extremely susceptible to rounding errors. An application that can largely benefit from the advantages of low-precision computing is the numerical solution of partial differential equations (PDEs), but a careful implementation and rounding error analysis are required to ensure that sensible results can still be obtained.</description>
     </item>
     
     <item>

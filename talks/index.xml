@@ -6,13 +6,22 @@
     <description>Recent content in Talks on Matteo Croci</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Wed, 27 Feb 2019 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jan 2020 12:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://croci.github.io/talks/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Selected Presentations</title>
+      <link>https://croci.github.io/talks/sr2020/</link>
+      <pubDate>Wed, 01 Jan 2020 12:00:00 +0000</pubDate>
+      
+      <guid>https://croci.github.io/talks/sr2020/</guid>
+      <description>M. Croci and M. B. Giles, Solving parabolic PDEs in half precision, NLA Group meeting, University of Manchester, UK and SCAN department meeting, Simula Research Laboratory, Norway (2020). Download. Motivated by the advent of machine learning, the last few years saw the return of hardware-supported low-precision computing. Computations with fewer digits are faster and more memory and energy efficient, but can be extremely susceptible to rounding errors. An application that can largely benefit from the advantages of low-precision computing is the numerical solution of partial differential equations (PDEs), but a careful implementation and rounding error analysis are required to ensure that sensible results can still be obtained.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://croci.github.io/talks/siamcse2019/</link>
       <pubDate>Wed, 27 Feb 2019 12:00:00 +0000</pubDate>
       
