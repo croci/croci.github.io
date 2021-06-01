@@ -35,7 +35,7 @@
       <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
       
       <guid>https://croci.github.io/publications/mlqmc_white_noise2018/</guid>
-      <description>M. Croci, M. B. Giles, M. E. Rognes, and P. E. Farrell, Multilevel quasi Monte Carlo methods for elliptic partial differential equations driven by spatial white noise, submitted to SISC. Preprint, Talk. When solving partial differential equations driven by additive spatial white noise, the efficient sampling of white noise realizations can be challenging. In this paper we focus on the efficient sampling of white noise using quasi-random points in a finite element method and multilevel Quasi Monte Carlo (MLQMC) setting.</description>
+      <description>M. Croci, M. B. Giles, M. E. Rognes, and P. E. Farrell, Multilevel quasi Monte Carlo methods for elliptic partial differential equations driven by spatial white noise, to appear in SISC. Preprint, Talk. When solving partial differential equations driven by additive spatial white noise, the efficient sampling of white noise realizations can be challenging. In this paper we focus on the efficient sampling of white noise using quasi-random points in a finite element method and multilevel Quasi Monte Carlo (MLQMC) setting.</description>
     </item>
     
     <item>
