@@ -32,8 +32,8 @@
 		<h1 id="logo" class="text-center">
 			<img class="img-circle" src="https://croci.github.io/images/avatar.jpg" alt="">
 			<span class="title">Matteo Croci</span>
-			<span class="tagline">Postdoctoral RA in Mathematics - University of Oxford<br>
-				<a href="mailto:matteo.croci@maths.ox.ac.uk">matteo.croci@maths.ox.ac.uk</a>
+			<span class="tagline">Postdoctoral Researcher - Oden Institute, UT Austin<br>
+				<a href="mailto:matteo.croci@austin.utexas.edu">matteo.croci@austin.utexas.edu</a>
             </span>
 		</h1>
 	</div>
@@ -104,7 +104,61 @@
 					<div class="entry-content">
 						
 
-<h5 id="m-croci-m-b-giles-effects-of-round-to-nearest-and-stochastic-rounding-in-the-numerical-solution-of-the-heat-equation-in-low-precision-submitted-to-sinum-2020-preprint-https-arxiv-org-abs-2010-16225-slides-slides-manchester-07-12-20-pdf"><strong>M. Croci, M. B. Giles, <em>Effects of round-to-nearest and stochastic rounding in the numerical solution of the heat equation in low precision</em>, submitted to SINUM (2020).</strong> <a href="https://arxiv.org/abs/2010.16225">Preprint</a>. <a href="/slides/Manchester_07-12-20.pdf">Slides</a>.</h5>
+<h5 id="m-croci-g-rosilho-de-souza-mixed-precision-explicit-stabilized-runge-kutta-methods-for-single-and-multi-scale-differential-equations-submitted-2021-preprint-https-arxiv-org-abs-2109-12153-slides-slides-naseminar21-06-01-pdf"><strong>M. Croci, G. Rosilho de Souza, <em>Mixed-precision explicit stabilized Runge-Kutta methods for single- and multi-scale differential equations</em>, submitted (2021).</strong> <a href="https://arxiv.org/abs/2109.12153">Preprint</a>. <a href="/slides/NAseminar21-06-01.pdf">Slides</a>.</h5>
+
+<p>Mixed-precision algorithms combine low- and high-precision computations in order to benefit from the performance gains of reduced-precision without sacrificing accuracy. In this work, we design mixed-precision Runge-Kutta-Chebyshev (RKC) methods, where high precision is used for accuracy, and low precision for stability. Generally speaking, RKC methods are low-order explicit schemes with a stability domain growing quadratically with the number of function evaluations. For this reason, most of the computational effort is spent on stability rather than accuracy purposes. In this paper, we show that a naïve mixed-precision implementation of any Runge-Kutta scheme can harm the convergence order of the method and limit its accuracy, and we introduce a new class of mixed-precision RKC schemes that are instead unaffected by this limiting behaviour. We present three mixed-precision schemes: a first- and a second-order RKC method, and a first-order multirate RKC scheme for multiscale problems. These schemes perform only the few function evaluations needed for accuracy (1 or 2 for first- and second-order methods respectively) in high precision, while the rest are performed in low precision. We prove that while these methods are essentially as cheap as their fully low-precision equivalent, they retain the convergence order of their high-precision counterpart. Indeed, numerical experiments confirm that these schemes are as accurate as the corresponding high-precision method.</p>
+
+					</div>
+				</article>
+                
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
+                            
+						</div>
+                        
+						<h1 class="entry-title">Publications</h1>
+					</header>
+					<div class="entry-content">
+						
+
+<h5 id="m-croci-m-fasi-n-j-higham-t-mary-m-mikaitis-stochastic-rounding-implementation-error-analysis-and-applications-submitted-2021-preprint-http-eprints-maths-manchester-ac-uk-2836-1-cfhm21-pdf"><strong>M. Croci, M. Fasi, N. J. Higham, T. Mary, M. Mikaitis, <em>Stochastic Rounding: Implementation, Error Analysis, and Applications</em>, submitted (2021).</strong> <a href="http://eprints.maths.manchester.ac.uk/2836/1/cfhm21.pdf">Preprint</a>.</h5>
+
+<p>Stochastic rounding randomly maps a real number to one of the two nearest values in a finite precision number system. First proposed for use in computer arithmetic in the 1950s, it is attracting renewed interest. If used in floating-point arithmetic in the computation of the inner product of two vectors of length n, it yields an error bounded by \sqrt(n)u with high probability, where u is the unit roundoff, which is not necessarily the case for round to nearest. A particular attraction of stochastic rounding is that, unlike round to nearest, it is immune to the phenomenon of stagnation, whereby a sequence of tiny updates to a relatively large quantity are lost. We survey stochastic rounding, covering its mathematical properties and probabilistic error analysis, its implementation, and its use in applications, including deep learning and the numerical solution of differential equations.</p>
+
+					</div>
+				</article>
+                
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
+                            
+						</div>
+                        
+						<h1 class="entry-title">Publications</h1>
+					</header>
+					<div class="entry-content">
+						
+
+<h5 id="m-kloewer-s-hatfield-m-croci-p-dueben-t-palmer-fluid-simulations-accelerated-with-16-bit-approaching-4x-speedup-on-a64fx-by-squeezing-shallowwaters-jl-into-float16-submitted-2021-preprint-https-www-essoar-org-doi-abs-10-1002-essoar-10507472-2"><strong>M. Kloewer, S. Hatfield, M. Croci, P. Dueben, T. Palmer, <em>Fluid simulations accelerated with 16 bit: Approaching 4x speedup on A64FX by squeezing ShallowWaters.jl into Float16</em>, submitted (2021).</strong> <a href="https://www.essoar.org/doi/abs/10.1002/essoar.10507472.2">Preprint</a>.</h5>
+
+<p>Most Earth-system simulations run on conventional CPUs in 64-bit double precision floating-point numbers Float64, although the need for high-precision calculations in the presence of large uncertainties has been questioned. Fugaku, currently the world’s fastest supercomputer, is based on A64FX microprocessors, which also support the 16-bit low-precision format Float16. We investigate the Float16 performance on A64FX with ShallowWaters.jl, the first fluid circulation model that runs entirely with 16-bit arithmetic. The model implements techniques that address precision and dynamic range issues in 16 bit. The precision-critical time integration is augmented to include compensated summation to minimize rounding errors. Such a compensated time integration is as precise but faster than mixed-precision with 16 and 32-bit floats. As subnormals are inefficiently supported on A64FX the very limited range available in Float16 is 6.10-5 to 65504. We develop the analysis-number format Sherlogs.jl to log the arithmetic results during the simulation. The equations in ShallowWaters.jl are then systematically rescaled to fit into Float16, using 97% of the available representable numbers. Consequently, we benchmark speedups of 3.8x on A64FX with Float16. Adding a compensated time integration the speedup is 3.6x. Although ShallowWaters.jl is simplified compared to large Earth-system models, it shares essential algorithms and therefore shows that 16-bit calculations are indeed a competitive way to accelerate Earth-system simulations on available hardware.</p>
+
+					</div>
+				</article>
+                
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
+                            
+						</div>
+                        
+						<h1 class="entry-title">Publications</h1>
+					</header>
+					<div class="entry-content">
+						
+
+<h5 id="m-croci-m-b-giles-effects-of-round-to-nearest-and-stochastic-rounding-in-the-numerical-solution-of-the-heat-equation-in-low-precision-submitted-2020-preprint-https-arxiv-org-abs-2010-16225-slides-slides-manchester-07-12-20-pdf"><strong>M. Croci, M. B. Giles, <em>Effects of round-to-nearest and stochastic rounding in the numerical solution of the heat equation in low precision</em>, submitted (2020).</strong> <a href="https://arxiv.org/abs/2010.16225">Preprint</a>. <a href="/slides/Manchester_07-12-20.pdf">Slides</a>.</h5>
 
 <p>Motivated by the advent of machine learning, the last few years saw the return of hardware-supported low-precision computing. Computations with fewer digits are faster and more memory and energy efficient, but can be extremely susceptible to rounding errors. An application that can largely benefit from the advantages of low-precision computing is the numerical solution of partial differential equations (PDEs), but a careful implementation and rounding error analysis are required to ensure that sensible results can still be obtained.
 In this paper we study the accumulation of rounding errors in the solution of the heat equation, a proxy for parabolic PDEs, via Runge-Kutta finite difference methods using round-to-nearest (RtN) and stochastic rounding (SR). We demonstrate how to implement the scheme to reduce rounding errors and we derive a priori estimates for local and global rounding errors. Let u be the roundoff unit. While the worst-case local errors are O(u) with respect to the discretization parameters, the RtN and SR error behavior is substantially different. We prove that the RtN solution is discretization, initial condition and precision dependent, and always stagnates for small enough Δt. Until stagnation, the global error grows like O(u \Delta t^{-1}). In contrast, we show that the leading order errors introduced by SR are zero-mean, independent in space and mean-independent in time, making SR resilient to stagnation and rounding error accumulation. In fact, we prove that for SR the global rounding errors are only O(u\Delta t^{-<sup>1</sup>&frasl;<sub>4</sub>}) in 1D and are essentially bounded (up to logarithmic factors) in higher dimensions.</p>
@@ -123,7 +177,7 @@ In this paper we study the accumulation of rounding errors in the solution of th
 					<div class="entry-content">
 						
 
-<h5 id="m-croci-m-b-giles-m-e-rognes-and-p-e-farrell-multilevel-quasi-monte-carlo-methods-for-elliptic-partial-differential-equations-driven-by-spatial-white-noise-to-appear-in-sisc-preprint-https-arxiv-org-abs-1911-12099-talk-slides-siamcse19-pdf"><strong>M. Croci, M. B. Giles, M. E. Rognes, and P. E. Farrell, <em>Multilevel quasi Monte Carlo methods for elliptic partial differential equations driven by spatial white noise</em>, to appear in SISC.</strong> <a href="https://arxiv.org/abs/1911.12099">Preprint</a>, <a href="/slides/siamcse19.pdf">Talk</a>.</h5>
+<h5 id="m-croci-m-b-giles-m-e-rognes-and-p-e-farrell-multilevel-quasi-monte-carlo-methods-for-elliptic-partial-differential-equations-driven-by-spatial-white-noise-siam-journal-on-scientific-computing-preprint-https-arxiv-org-abs-1911-12099-talk-slides-siamcse19-pdf"><strong>M. Croci, M. B. Giles, M. E. Rognes, and P. E. Farrell, <em>Multilevel quasi Monte Carlo methods for elliptic partial differential equations driven by spatial white noise</em>, SIAM Journal on Scientific Computing.</strong> <a href="https://arxiv.org/abs/1911.12099">Preprint</a>, <a href="/slides/siamcse19.pdf">Talk</a>.</h5>
 
 <p>When solving partial differential equations driven by additive spatial white noise, the efficient sampling of white noise realizations can be challenging. In this paper we focus on the efficient sampling of white noise using quasi-random points in a finite element method and multilevel Quasi Monte Carlo (MLQMC) setting. This work is an extension of previous research on white noise sampling for MLMC.</p>
 
@@ -261,9 +315,9 @@ mechanics.</p>
 				<h3 class="widget-title">Contact</h3>
 				<div class="widget-body">
 					<p>
-					<a href="mailto:matteo.croci@maths.ox.ac.uk">matteo.croci@maths.ox.ac.uk</a><br>
+					<a href="mailto:matteo.croci@austin.utexas.edu">matteo.croci@austin.utexas.edu</a><br>
 						<br>
-						Mathematical Institute, University of Oxford, Woodstock Road, Oxford, OX2 6GG
+						Oden Institute, UT Austin, Peter O&#39;Donnell, Jr. Building, 201 E 24th St, Austin, TX 78712
 					</p>
 				</div>
 			</div>
@@ -324,14 +378,14 @@ mechanics.</p>
 
 			<div class="col-md-6 widget">
 				<div class="widget-body">
-					<p>Mathematical Institute, University of Oxford, Woodstock Road, Oxford, OX2 6GG</p>
+					<p>Oden Institute, UT Austin, Peter O&#39;Donnell, Jr. Building, 201 E 24th St, Austin, TX 78712</p>
 				</div>
 			</div>
 
 			<div class="col-md-6 widget">
 				<div class="widget-body">
 					<p class="text-right">
-						Copyright &copy; 2019, Matteo Croci<br>
+						Copyright &copy; 2021, Matteo Croci<br>
 						Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> - 
                         Powered by: <a href="https://gohugo.io/" rel="poweredby">Hugo</a>
                     </p>
