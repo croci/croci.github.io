@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Matteo Croci</title>
@@ -22,20 +22,20 @@
     
     <item>
       <title>Publications</title>
+      <link>https://croci.github.io/publications/shallow_waters2021/</link>
+      <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://croci.github.io/publications/shallow_waters2021/</guid>
+      <description>M. Kloewer, S. Hatfield, M. Croci, P. Dueben, T. Palmer, Fluid simulations accelerated with 16 bit: Approaching 4x speedup on A64FX by squeezing ShallowWaters.jl into Float16, Journal of Advances in Modeling Earth Systems (2021). Preprint. Most Earth-system simulations run on conventional CPUs in 64-bit double precision floating-point numbers Float64, although the need for high-precision calculations in the presence of large uncertainties has been questioned. Fugaku, currently the world’s fastest supercomputer, is based on A64FX microprocessors, which also support the 16-bit low-precision format Float16.</description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
       <link>https://croci.github.io/publications/sr-review2021/</link>
       <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
       
       <guid>https://croci.github.io/publications/sr-review2021/</guid>
       <description>M. Croci, M. Fasi, N. J. Higham, T. Mary, M. Mikaitis, Stochastic Rounding: Implementation, Error Analysis, and Applications, submitted (2021). Preprint. Stochastic rounding randomly maps a real number to one of the two nearest values in a finite precision number system. First proposed for use in computer arithmetic in the 1950s, it is attracting renewed interest. If used in floating-point arithmetic in the computation of the inner product of two vectors of length n, it yields an error bounded by \sqrt(n)u with high probability, where u is the unit roundoff, which is not necessarily the case for round to nearest.</description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>https://croci.github.io/publications/shallow_waters2021/</link>
-      <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
-      
-      <guid>https://croci.github.io/publications/shallow_waters2021/</guid>
-      <description>M. Kloewer, S. Hatfield, M. Croci, P. Dueben, T. Palmer, Fluid simulations accelerated with 16 bit: Approaching 4x speedup on A64FX by squeezing ShallowWaters.jl into Float16, submitted (2021). Preprint. Most Earth-system simulations run on conventional CPUs in 64-bit double precision floating-point numbers Float64, although the need for high-precision calculations in the presence of large uncertainties has been questioned. Fugaku, currently the world’s fastest supercomputer, is based on A64FX microprocessors, which also support the 16-bit low-precision format Float16.</description>
     </item>
     
     <item>
