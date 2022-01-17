@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Teaching</title>
+      <link>https://croci.github.io/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://croci.github.io/teaching/</guid>
+      <description>2020-2021  Lecturer for the MATLAB course for the MSc in Mathematical Modelling and Scientific Computing. Tutor for the Simulation Methods and Stochastic Algorithms course for the Mathematics of Random System CDT. Course webpage.  2019-2020  Tutor for the Simulation Methods and Stochastic Algorithms course for the Mathematics of Random System CDT. Course webpage. Tutor for the M6 course on numerical methods for the MSc in Mathematical and Computational Finance.</description>
+    </item>
+    
+    <item>
       <title>Publications</title>
       <link>https://croci.github.io/publications/mprkc-2021/</link>
       <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
@@ -21,7 +30,7 @@
     </item>
     
     <item>
-      <title>Publications</title>
+      <title></title>
       <link>https://croci.github.io/publications/shallow_waters2021/</link>
       <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
       
@@ -30,7 +39,7 @@
     </item>
     
     <item>
-      <title>Publications</title>
+      <title></title>
       <link>https://croci.github.io/publications/sr-review2021/</link>
       <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
       
@@ -39,21 +48,12 @@
     </item>
     
     <item>
-      <title>Publications</title>
+      <title></title>
       <link>https://croci.github.io/publications/stochastic_rounding2020/</link>
       <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
       
       <guid>https://croci.github.io/publications/stochastic_rounding2020/</guid>
       <description>M. Croci, M. B. Giles, Effects of round-to-nearest and stochastic rounding in the numerical solution of the heat equation in low precision, submitted (2020). Preprint. Slides. Motivated by the advent of machine learning, the last few years saw the return of hardware-supported low-precision computing. Computations with fewer digits are faster and more memory and energy efficient, but can be extremely susceptible to rounding errors. An application that can largely benefit from the advantages of low-precision computing is the numerical solution of partial differential equations (PDEs), but a careful implementation and rounding error analysis are required to ensure that sensible results can still be obtained.</description>
-    </item>
-    
-    <item>
-      <title>Finite Element Method</title>
-      <link>https://croci.github.io/interest/interest1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://croci.github.io/interest/interest1/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -66,30 +66,12 @@
     </item>
     
     <item>
-      <title>Multilevel Monte Carlo and Multilevel Quasi Monte Carlo methods</title>
-      <link>https://croci.github.io/interest/interest2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://croci.github.io/interest/interest2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title></title>
       <link>https://croci.github.io/publications/mlmc_qmc_brain_2020/</link>
       <pubDate>Sat, 20 Oct 2018 12:00:00 +0000</pubDate>
       
       <guid>https://croci.github.io/publications/mlmc_qmc_brain_2020/</guid>
       <description>M. Croci, V. Vinje and M. E. Rognes, Fast uncertainty quantification of tracer distribution in the brain interstitial fluid with multilevel and quasi Monte Carlo, International Journal for Numerical Methods in Biomedical Engineering. Preprint. Efficient uncertainty quantification algorithms are key to understand the propagation of uncertainty &amp;ndash; from uncertain input parameters to uncertain output quantities &amp;ndash; in high resolution mathematical models of brain physiology. Advanced Monte Carlo methods such as quasi Monte Carlo (QMC) and multilevel Monte Carlo (MLMC) have the potential to dramatically improve upon standard Monte Carlo (MC) methods, but their applicability and performance in biomedical applications is underexplored.</description>
-    </item>
-    
-    <item>
-      <title>Low-precision PDE solvers</title>
-      <link>https://croci.github.io/interest/interest3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://croci.github.io/interest/interest3/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -102,30 +84,12 @@
     </item>
     
     <item>
-      <title>Uncertainty Quantification for PDEs with random coefficients</title>
-      <link>https://croci.github.io/interest/interest4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://croci.github.io/interest/interest4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title></title>
       <link>https://croci.github.io/publications/uq_parenchymal_tracer_distribution2019/</link>
       <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
       
       <guid>https://croci.github.io/publications/uq_parenchymal_tracer_distribution2019/</guid>
       <description>M. Croci, V. Vinje, M. E. Rognes, Uncertainty quantification of parenchymal tracer distribution using random diffusion and convective velocity fields, Fluids and Barriers of the CNS 16-1 (2019), pp. 1-32. Article. Background: Influx and clearance of substances in the brain parenchyma occur by a combination of diffusion and convection, but the relative importance of thiese mechanisms is unclear. Accurate modeling of tracer distributions in the brain relies on parameters that are partially unknown and with literature values varying up to 7 orders of magnitude.</description>
-    </item>
-    
-    <item>
-      <title>Mathematical Modelling of the Brain Physiology</title>
-      <link>https://croci.github.io/interest/interest5/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://croci.github.io/interest/interest5/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -138,30 +102,12 @@
     </item>
     
     <item>
-      <title>Deflation for Variational Inequalities</title>
-      <link>https://croci.github.io/interest/interest6/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://croci.github.io/interest/interest6/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title></title>
       <link>https://croci.github.io/publications/semismooth_deflation2018/</link>
       <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
       
       <guid>https://croci.github.io/publications/semismooth_deflation2018/</guid>
       <description>P. E. Farrell, M. Croci, T. M. Surowiec, Deflation for semismooth equations, Optimization Methods and Software (2020) - Charles Broyden prize for best OMS paper in 2020. Article. Variational inequalities can in general support distinct solutions. In this paper we study an algorithm for computing distinct solutions of a variational inequality, with- out varying the initial guess supplied to the solver. The central idea is the combi- nation of a semismooth Newton method with a deflation operator that eliminates known solutions from consideration.</description>
-    </item>
-    
-    <item>
-      <title>Teaching</title>
-      <link>https://croci.github.io/teaching/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://croci.github.io/teaching/</guid>
-      <description>2020-2021  Lecturer for the MATLAB course for the MSc in Mathematical Modelling and Scientific Computing. Tutor for the Simulation Methods and Stochastic Algorithms course for the Mathematics of Random System CDT. Course webpage.  2019-2020  Tutor for the Simulation Methods and Stochastic Algorithms course for the Mathematics of Random System CDT. Course webpage. Tutor for the M6 course on numerical methods for the MSc in Mathematical and Computational Finance.</description>
     </item>
     
     <item>
