@@ -267,6 +267,8 @@ a:hover {
   padding: 90px 0;
 }
 
+/* These two blocks below for shaping the white boxes */
+
 @media all and (max-width: 530px){
     .home #head .title {
       font-size: 49px;
@@ -280,9 +282,9 @@ a:hover {
       font-size: 16px;
       font-size: 1rem;
       font-size: 3vw;
-      padding: 3px 0 10px 0;
+      padding: 5px 0 10px 0;
       width: 86vw;
-      margin: 1px auto;
+      margin: 0px auto;
       opacity: 0.8;
       background: #ffffff;
     }
@@ -300,11 +302,11 @@ a:hover {
       font-size: 16px;
       font-size: 1rem;
       /*margin: 15px 0 0;*/
-      padding: 3px 0 10px 0;
+      padding: 10px 0 10px 0;
       width: 505px;
       /*margin: 15px 700px 0;*/
       /*padding: 0 111.5px 14px 111.5px;*/
-      margin: 1px auto;
+      margin: 0px auto;
       opacity: 0.8;
       background: #ffffff;
     }
