@@ -44,7 +44,7 @@
       <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
       
       <guid>https://croci.github.io/publications/sr-review2021/</guid>
-      <description>M. Croci, M. Fasi, N. J. Higham, T. Mary, M. Mikaitis, Stochastic Rounding: Implementation, Error Analysis, and Applications, submitted (2021). Preprint. Stochastic rounding randomly maps a real number to one of the two nearest values in a finite precision number system. First proposed for use in computer arithmetic in the 1950s, it is attracting renewed interest. If used in floating-point arithmetic in the computation of the inner product of two vectors of length n, it yields an error bounded by \sqrt(n)u with high probability, where u is the unit roundoff, which is not necessarily the case for round to nearest.</description>
+      <description>M. Croci, M. Fasi, N. J. Higham, T. Mary, M. Mikaitis, Stochastic Rounding: Implementation, Error Analysis, and Applications, to appear in Royal Society Open Science (2022). Preprint. Stochastic rounding randomly maps a real number to one of the two nearest values in a finite precision number system. First proposed for use in computer arithmetic in the 1950s, it is attracting renewed interest. If used in floating-point arithmetic in the computation of the inner product of two vectors of length n, it yields an error bounded by \sqrt(n)u with high probability, where u is the unit roundoff, which is not necessarily the case for round to nearest.</description>
     </item>
     
     <item>
