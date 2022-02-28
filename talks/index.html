@@ -102,6 +102,38 @@
 						<h1 class="entry-title">Selected Presentations</h1>
 					</header>
 					<div class="entry-content">
+						<h5 id="m-croci-_solving-differential-equations-in-reduced--and-mixed-precision_-ecole-polytecnique-federale-de-lausanne-2022-downloadslidesepfl_22-02-28pdf"><strong>M. Croci, <em>Solving differential equations in reduced- and mixed-precision</em>, Ecole Polytecnique Federale de Lausanne (2022).</strong> <a href="/slides/EPFL_22-02-28.pdf">Download</a>.</h5>
+<p>Motivated by the advent of machine learning, the last few years saw the return of hardware-supported reduced-precision computing.
+Computations with fewer digits are faster and more memory and energy efficient, but a careful implementation and rounding error
+analysis are required to ensure that sensible results can still be obtained.</p>
+<p>This talk is divided in two parts in which we focus on reduced- and mixed-precision algorithms respectively.
+Reduced-precision algorithms obtain an as accurate solution as possible given the precision while avoiding catastrophic rounding error accumulation.
+Mixed-precision algorithms, on the other hand, combine low- and high-precision computations in order to benefit from
+the performance gains of reduced-precision while retaining good accuracy.</p>
+<p>In the first part of the talk we study the accumulation of rounding errors in the solution of the heat equation,
+a proxy for parabolic PDEs, in reduced precision using round-to-nearest (RtN) and stochastic rounding (SR).
+We demonstrate how to implement the numerical scheme to reduce rounding errors and we present \emph{a priori}
+estimates for local and global rounding errors. While the RtN solution leads to rapid rounding error accumulation and stagnation,
+SR leads to much more robust implementations for which the error remains at roughly the same level of the working precision.</p>
+<p>In the second part of the talk we focus on mixed-precision explicit stabilised Runge-Kutta methods.
+We show that a naive mixed-precision implementation harms convergence and leads to error stagnation,
+and we present a more accurate alternative. We introduce new Runge-Kutta-Chebyshev schemes that only use $q\in{1,2}$
+high-precision function evaluations to achieve a limiting convergence order of $O(\Delta t^{q})$,
+leaving the remaining evaluations in low precision. These methods are essentially as cheap as their fully low-precision equivalent
+and they are as accurate and (almost) as stable as their high-precision counterpart.</p>
+
+					</div>
+				</article>
+                
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
+                            
+						</div>
+                        
+						<h1 class="entry-title">Selected Presentations</h1>
+					</header>
+					<div class="entry-content">
 						<h5 id="m-croci-and-m-b-giles-_solving-parabolic-pdes-in-half-precision_-siam-cse-2021-and-nla-group-meeting-university-of-manchester-2020-2021-downloadslidesmanchester_07-12-20pdf"><strong>M. Croci and M. B. Giles, <em>Solving parabolic PDEs in half precision</em>, SIAM CSE 2021 and NLA Group meeting, University of Manchester (2020-2021).</strong> <a href="/slides/Manchester_07-12-20.pdf">Download</a>.</h5>
 <p>Motivated by the advent of machine learning, the last few years saw the return of hardware-supported low-precision computing. Computations with fewer digits are faster and more memory and energy efficient, but can be extremely susceptible to rounding errors. An application that can largely benefit from the advantages of low-precision computing is the numerical solution of partial differential equations (PDEs), but a careful implementation and rounding error analysis are required to ensure that sensible results can still be obtained.</p>
 <p>In this talk we study the accumulation of rounding errors in the solution of the heat equation, a proxy for parabolic PDEs, via Runge-Kutta finite difference methods using round-to-nearest (RtN) and stochastic rounding (SR). We demonstrate how to implement the numerical scheme to reduce rounding errors and we present \emph{a priori} estimates for local and global rounding errors. Let $u$ be the roundoff unit. While the worst-case local errors are $O(u)$ with respect to the discretization parameters, the RtN and SR error behaviour is substantially different. We show that the RtN solution is discretization, initial condition and precision dependent, and always stagnates for small enough $\Delta t$. Until stagnation, the global error grows like $O(u\Delta t^{-1})$. In contrast, the leading order errors introduced by SR are zero-mean, independent in space and mean-independent in time, making SR resilient to stagnation and rounding error accumulation. In fact, we prove that for SR the global rounding errors are only $O(u\Delta t^{-1/4})$ in 1D and are essentially bounded (up to logarithmic factors) in higher dimensions.</p>
