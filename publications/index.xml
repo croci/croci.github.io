@@ -26,7 +26,7 @@
       <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
       
       <guid>https://croci.github.io/publications/shallow_waters2021/</guid>
-      <description>M. Kloewer, S. Hatfield, M. Croci, P. Dueben, T. Palmer, Fluid simulations accelerated with 16 bit: Approaching 4x speedup on A64FX by squeezing ShallowWaters.jl into Float16, Journal of Advances in Modeling Earth Systems (2021). Paper. Most Earth-system simulations run on conventional CPUs in 64-bit double precision floating-point numbers Float64, although the need for high-precision calculations in the presence of large uncertainties has been questioned. Fugaku, currently the world’s fastest supercomputer, is based on A64FX microprocessors, which also support the 16-bit low-precision format Float16.</description>
+      <description>M. Kloewer, S. Hatfield, M. Croci, P. Dueben, T. Palmer, Fluid simulations accelerated with 16 bit: Approaching 4x speedup on A64FX by squeezing ShallowWaters.jl into Float16, Journal of Advances in Modeling Earth Systems (2021). Article. Most Earth-system simulations run on conventional CPUs in 64-bit double precision floating-point numbers Float64, although the need for high-precision calculations in the presence of large uncertainties has been questioned. Fugaku, currently the world’s fastest supercomputer, is based on A64FX microprocessors, which also support the 16-bit low-precision format Float16.</description>
     </item>
     
     <item>
