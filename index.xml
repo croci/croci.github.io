@@ -71,7 +71,7 @@
       <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
       
       <guid>https://croci.github.io/publications/mprkc-2021/</guid>
-      <description>M. Croci, G. Rosilho de Souza, Mixed-precision explicit stabilized Runge-Kutta methods for single- and multi-scale differential equations, submitted (2021). Preprint. Slides. Mixed-precision algorithms combine low- and high-precision computations in order to benefit from the performance gains of reduced-precision without sacrificing accuracy. In this work, we design mixed-precision Runge-Kutta-Chebyshev (RKC) methods, where high precision is used for accuracy, and low precision for stability. Generally speaking, RKC methods are low-order explicit schemes with a stability domain growing quadratically with the number of function evaluations.</description>
+      <description>M. Croci, G. Rosilho de Souza, Mixed-precision explicit stabilized Runge-Kutta methods for single- and multi-scale differential equations, Journal of Computational Physics (2022). Article. Slides. Mixed-precision algorithms combine low- and high-precision computations in order to benefit from the performance gains of reduced-precision without sacrificing accuracy. In this work, we design mixed-precision Runge-Kutta-Chebyshev (RKC) methods, where high precision is used for accuracy, and low precision for stability. Generally speaking, RKC methods are low-order explicit schemes with a stability domain growing quadratically with the number of function evaluations.</description>
     </item>
     
     <item>
