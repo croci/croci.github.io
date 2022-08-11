@@ -17,7 +17,8 @@
       <pubDate>Mon, 01 Feb 2021 12:00:00 +0000</pubDate>
       
       <guid>https://croci.github.io/talks/srmp2021-2022/</guid>
-      <description>M. Croci, Solving differential equations in reduced- and mixed-precision, Oden Institute, Yale University and Ecole Polytecnique Federale de Lausanne (2022). Download. Motivated by the advent of machine learning, the last few years saw the return of hardware-supported reduced-precision computing. Computations with fewer digits are faster and more memory and energy efficient, but a careful implementation and rounding error analysis are required to ensure that sensible results can still be obtained.</description>
+      <description>M. Croci, Solving differential equations in reduced- and mixed-precision, Yale University and Ecole Polytecnique Federale de Lausanne (2022). Download. Motivated by the advent of machine learning, the last few years saw the return of hardware-supported reduced-precision computing. Computations with fewer digits are faster and more memory and energy efficient, but a careful implementation and rounding error analysis are required to ensure that sensible results can still be obtained.
+This talk is divided in two parts in which we focus on reduced- and mixed-precision algorithms respectively.</description>
     </item>
     
     <item>
