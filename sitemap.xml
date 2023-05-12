@@ -32,7 +32,12 @@
   </url>
   
   <url>
-    <loc>https://croci.github.io/publications/mprkc-2021/</loc>
+    <loc>https://croci.github.io/publications/mlblue_2023/</loc>
+    <lastmod>2018-11-20T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://croci.github.io/publications/mprkc_2021/</loc>
     <lastmod>2018-11-20T12:00:00+00:00</lastmod>
   </url>
   
@@ -42,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://croci.github.io/publications/sr-review2021/</loc>
+    <loc>https://croci.github.io/publications/sr_review2021/</loc>
     <lastmod>2018-11-20T12:00:00+00:00</lastmod>
   </url>
   
@@ -62,7 +67,7 @@
   </url>
   
   <url>
-    <loc>https://croci.github.io/publications/quasi-uniform-supermeshing/</loc>
+    <loc>https://croci.github.io/publications/quasi_uniform_supermeshing/</loc>
     <lastmod>2018-11-20T12:00:00+00:00</lastmod>
   </url>
   
@@ -78,6 +83,11 @@
   
   <url>
     <loc>https://croci.github.io/publications/semismooth_deflation2018/</loc>
+    <lastmod>2018-11-20T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://croci.github.io/publications/kronecker2023/</loc>
     <lastmod>2018-11-20T12:00:00+00:00</lastmod>
   </url>
   

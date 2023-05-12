@@ -67,10 +67,19 @@
     
     <item>
       <title>Publications</title>
-      <link>https://croci.github.io/publications/mprkc-2021/</link>
+      <link>https://croci.github.io/publications/mlblue_2023/</link>
       <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
       
-      <guid>https://croci.github.io/publications/mprkc-2021/</guid>
+      <guid>https://croci.github.io/publications/mlblue_2023/</guid>
+      <description>M. Croci, K. E. Willcox, S. J. Wright, Multi-output multilevel best linear unbiased estimators via semidefinite programming, Submitted to CMAME (2023). Preprint. Software. Multifidelity forward uncertainty quantification (UQ) problems often involve multiple quantities of interest and heterogeneous models (e.g., different grids, equations, dimensions, physics, surrogate and reduced-order models). While computational efficiency is key in this context, multi-output strategies in multilevel/multifidelity methods are either sub-optimal or non-existent. In this paper we extend multilevel best linear unbiased estimators (MLBLUE) to multi-output forward UQ problems and we present new semidefinite programming formulations for their optimal setup.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://croci.github.io/publications/mprkc_2021/</link>
+      <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://croci.github.io/publications/mprkc_2021/</guid>
       <description>M. Croci, G. Rosilho de Souza, Mixed-precision explicit stabilized Runge-Kutta methods for single- and multi-scale differential equations, Journal of Computational Physics (2022). Article. Slides. Mixed-precision algorithms combine low- and high-precision computations in order to benefit from the performance gains of reduced-precision without sacrificing accuracy. In this work, we design mixed-precision Runge-Kutta-Chebyshev (RKC) methods, where high precision is used for accuracy, and low precision for stability. Generally speaking, RKC methods are low-order explicit schemes with a stability domain growing quadratically with the number of function evaluations.</description>
     </item>
     
@@ -85,10 +94,10 @@
     
     <item>
       <title></title>
-      <link>https://croci.github.io/publications/sr-review2021/</link>
+      <link>https://croci.github.io/publications/sr_review2021/</link>
       <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
       
-      <guid>https://croci.github.io/publications/sr-review2021/</guid>
+      <guid>https://croci.github.io/publications/sr_review2021/</guid>
       <description>M. Croci, M. Fasi, N. J. Higham, T. Mary, M. Mikaitis, Stochastic Rounding: Implementation, Error Analysis and Applications, Royal Society Open Science (2022). Article. Stochastic rounding randomly maps a real number to one of the two nearest values in a finite precision number system. First proposed for use in computer arithmetic in the 1950s, it is attracting renewed interest. If used in floating-point arithmetic in the computation of the inner product of two vectors of length n, it yields an error bounded by \sqrt(n)u with high probability, where u is the unit roundoff, which is not necessarily the case for round to nearest.</description>
     </item>
     
@@ -98,7 +107,7 @@
       <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
       
       <guid>https://croci.github.io/publications/stochastic_rounding2020/</guid>
-      <description>M. Croci, M. B. Giles, Effects of round-to-nearest and stochastic rounding in the numerical solution of the heat equation in low precision, to appear in IMA Journal of Numerical Analysis (2022). Preprint. Slides. Motivated by the advent of machine learning, the last few years saw the return of hardware-supported low-precision computing. Computations with fewer digits are faster and more memory and energy efficient, but can be extremely susceptible to rounding errors.</description>
+      <description>M. Croci, M. B. Giles, Effects of round-to-nearest and stochastic rounding in the numerical solution of the heat equation in low precision, IMA Journal of Numerical Analysis (2022). Preprint. Slides. Motivated by the advent of machine learning, the last few years saw the return of hardware-supported low-precision computing. Computations with fewer digits are faster and more memory and energy efficient, but can be extremely susceptible to rounding errors. An application that can largely benefit from the advantages of low-precision computing is the numerical solution of partial differential equations (PDEs), but a careful implementation and rounding error analysis are required to ensure that sensible results can still be obtained.</description>
     </item>
     
     <item>
@@ -121,10 +130,10 @@
     
     <item>
       <title></title>
-      <link>https://croci.github.io/publications/quasi-uniform-supermeshing/</link>
+      <link>https://croci.github.io/publications/quasi_uniform_supermeshing/</link>
       <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
       
-      <guid>https://croci.github.io/publications/quasi-uniform-supermeshing/</guid>
+      <guid>https://croci.github.io/publications/quasi_uniform_supermeshing/</guid>
       <description>M. Croci and P. E. Farrell, Complexity bounds on supermesh construction for quasi-uniform meshes, Journal of Computational Physics 414 (2020), pp. 1–7. Article. Preprint. Projecting fields between different meshes commonly arises in computational physics. This operation may require a supermesh construction and in this case its computational cost is proportional to the number of cells of the supermesh n. Given any two quasi-uniform meshes of nA and nB cells respectively, we show under standard assumptions that n is proportional to nA + nB.</description>
     </item>
     
@@ -153,6 +162,15 @@
       
       <guid>https://croci.github.io/publications/semismooth_deflation2018/</guid>
       <description>P. E. Farrell, M. Croci, T. M. Surowiec, Deflation for semismooth equations, Optimization Methods and Software (2020) - Charles Broyden prize for best OMS paper in 2020. Article. Variational inequalities can in general support distinct solutions. In this paper we study an algorithm for computing distinct solutions of a variational inequality, with- out varying the initial guess supplied to the solver. The central idea is the combi- nation of a semismooth Newton method with a deflation operator that eliminates known solutions from consideration.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://croci.github.io/publications/kronecker2023/</link>
+      <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
+      
+      <guid>https://croci.github.io/publications/kronecker2023/</guid>
+      <description>M. Croci, J. Munoz-Matute, Exploiting Kronecker structure in exponential integrators: Fast approximation of the action of phi-functions of matrices via quadrature, Journal of Computational Science (2023) Article, Preprint. In this article, we propose an algorithm for approximating the action of phi-functions of matrices against vectors, which is a key operation in exponential time integrators. In particular, we consider matrices with Kronecker sum structure, which arise from problems admitting a tensor product representation.</description>
     </item>
     
     <item>

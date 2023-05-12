@@ -102,6 +102,21 @@
 						<h1 class="entry-title">Publications</h1>
 					</header>
 					<div class="entry-content">
+						<h5 id="m-croci-k-e-willcox-s-j-wright-_multi-output-multilevel-best-linear-unbiased-estimators-via-semidefinite-programming_-submitted-to-cmame-2023-preprinthttpsarxivorgpdf230107831pdf-softwarehttpsgithubcomcrocibluest"><strong>M. Croci, K. E. Willcox, S. J. Wright, <em>Multi-output multilevel best linear unbiased estimators via semidefinite programming</em>, Submitted to CMAME (2023).</strong> <a href="https://arxiv.org/pdf/2301.07831.pdf">Preprint</a>. <a href="https://github.com/croci/bluest">Software</a>.</h5>
+<p>Multifidelity forward uncertainty quantification (UQ) problems often involve multiple quantities of interest and heterogeneous models (e.g., different grids, equations, dimensions, physics, surrogate and reduced-order models). While computational efficiency is key in this context, multi-output strategies in multilevel/multifidelity methods are either sub-optimal or non-existent. In this paper we extend multilevel best linear unbiased estimators (MLBLUE) to multi-output forward UQ problems and we present new semidefinite programming formulations for their optimal setup. Not only do these formulations yield the optimal number of samples required, but also the optimal selection of low-fidelity models to use. While existing MLBLUE approaches are single-output only and require a non-trivial nonlinear optimization procedure, the new multi-output formulations can be solved reliably and efficiently. We demonstrate the efficacy of the new methods and formulations in practical UQ problems with model heterogeneity.</p>
+
+					</div>
+				</article>
+                
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
+                            
+						</div>
+                        
+						<h1 class="entry-title"></h1>
+					</header>
+					<div class="entry-content">
 						<h5 id="m-croci-g-rosilho-de-souza-_mixed-precision-explicit-stabilized-runge-kutta-methods-for-single--and-multi-scale-differential-equations_-journal-of-computational-physics-2022-articlehttpsdoiorg101016jjcp2022111349-slidesslidesnaseminar21-06-01pdf"><strong>M. Croci, G. Rosilho de Souza, <em>Mixed-precision explicit stabilized Runge-Kutta methods for single- and multi-scale differential equations</em>, Journal of Computational Physics (2022).</strong> <a href="https://doi.org/10.1016/j.jcp.2022.111349">Article</a>. <a href="/slides/NAseminar21-06-01.pdf">Slides</a>.</h5>
 <p>Mixed-precision algorithms combine low- and high-precision computations in order to benefit from the performance gains of reduced-precision without sacrificing accuracy. In this work, we design mixed-precision Runge-Kutta-Chebyshev (RKC) methods, where high precision is used for accuracy, and low precision for stability. Generally speaking, RKC methods are low-order explicit schemes with a stability domain growing quadratically with the number of function evaluations. For this reason, most of the computational effort is spent on stability rather than accuracy purposes. In this paper, we show that a naïve mixed-precision implementation of any Runge-Kutta scheme can harm the convergence order of the method and limit its accuracy, and we introduce a new class of mixed-precision RKC schemes that are instead unaffected by this limiting behaviour. We present three mixed-precision schemes: a first- and a second-order RKC method, and a first-order multirate RKC scheme for multiscale problems. These schemes perform only the few function evaluations needed for accuracy (1 or 2 for first- and second-order methods respectively) in high precision, while the rest are performed in low precision. We prove that while these methods are essentially as cheap as their fully low-precision equivalent, they retain the convergence order of their high-precision counterpart. Indeed, numerical experiments confirm that these schemes are as accurate as the corresponding high-precision method.</p>
 
@@ -147,7 +162,7 @@
 						<h1 class="entry-title"></h1>
 					</header>
 					<div class="entry-content">
-						<h5 id="m-croci-m-b-giles-_effects-of-round-to-nearest-and-stochastic-rounding-in-the-numerical-solution-of-the-heat-equation-in-low-precision_-to-appear-in-ima-journal-of-numerical-analysis-2022-preprinthttpsarxivorgabs201016225-slidesslidesmanchester_07-12-20pdf"><strong>M. Croci, M. B. Giles, <em>Effects of round-to-nearest and stochastic rounding in the numerical solution of the heat equation in low precision</em>, to appear in IMA Journal of Numerical Analysis (2022).</strong> <a href="https://arxiv.org/abs/2010.16225">Preprint</a>. <a href="/slides/Manchester_07-12-20.pdf">Slides</a>.</h5>
+						<h5 id="m-croci-m-b-giles-_effects-of-round-to-nearest-and-stochastic-rounding-in-the-numerical-solution-of-the-heat-equation-in-low-precision_-ima-journal-of-numerical-analysis-2022-preprinthttpsarxivorgabs201016225-slidesslidesmanchester_07-12-20pdf"><strong>M. Croci, M. B. Giles, <em>Effects of round-to-nearest and stochastic rounding in the numerical solution of the heat equation in low precision</em>, IMA Journal of Numerical Analysis (2022).</strong> <a href="https://arxiv.org/abs/2010.16225">Preprint</a>. <a href="/slides/Manchester_07-12-20.pdf">Slides</a>.</h5>
 <p>Motivated by the advent of machine learning, the last few years saw the return of hardware-supported low-precision computing. Computations with fewer digits are faster and more memory and energy efficient, but can be extremely susceptible to rounding errors. An application that can largely benefit from the advantages of low-precision computing is the numerical solution of partial differential equations (PDEs), but a careful implementation and rounding error analysis are required to ensure that sensible results can still be obtained.
 In this paper we study the accumulation of rounding errors in the solution of the heat equation, a proxy for parabolic PDEs, via Runge-Kutta finite difference methods using round-to-nearest (RtN) and stochastic rounding (SR). We demonstrate how to implement the scheme to reduce rounding errors and we derive a priori estimates for local and global rounding errors. Let u be the roundoff unit. While the worst-case local errors are O(u) with respect to the discretization parameters, the RtN and SR error behavior is substantially different. We prove that the RtN solution is discretization, initial condition and precision dependent, and always stagnates for small enough Δt. Until stagnation, the global error grows like O(u \Delta t^{-1}). In contrast, we show that the leading order errors introduced by SR are zero-mean, independent in space and mean-independent in time, making SR resilient to stagnation and rounding error accumulation. In fact, we prove that for SR the global rounding errors are only O(u\Delta t^{-1/4}) in 1D and are essentially bounded (up to logarithmic factors) in higher dimensions.</p>
 
@@ -229,32 +244,6 @@ In this paper we study the accumulation of rounding errors in the solution of th
 					<div class="entry-content">
 						<h5 id="m-croci-m-b-giles-m-e-rognes-and-p-e-farrell-_efficient-white-noise-sampling-and-coupling-for-multilevel-monte-carlo-with-non-nested-meshes_-siamasa-journal-on-uncertainty-quantification-6-4-2018-pp-1630-1655-articlehttpsdoiorg10113718m1175239-talkslidesmcqmc18pdf"><strong>M. Croci, M. B. Giles, M. E. Rognes, and P. E. Farrell, <em>Efficient white noise sampling and coupling for multilevel Monte Carlo with non-nested meshes</em>, SIAM/ASA Journal on Uncertainty Quantification 6-4 (2018), pp. 1630-1655.</strong> <a href="https://doi.org/10.1137/18M1175239">Article</a>. <a href="/slides/mcqmc18.pdf">Talk</a>.</h5>
 <p>When solving stochastic partial differential equations (SPDEs) driven by additive spatial white noise, the efficient sampling of white noise realizations can be challenging. Here, we present a new sampling technique that can be used to efficiently compute white noise samples in a finite element method (FEM) and multilevel Monte Carlo (MLMC) setting. The key idea is to exploit the finite element matrix assembly procedure and factorize each local mass matrix independently, hence avoiding the factorization of a large matrix. Moreover, in an MLMC framework, the white noise samples must be coupled between subsequent levels. We show how our technique can be used to enforce this coupling even in the case of nonnested mesh hierarchies. We demonstrate the efficacy of our method with numerical experiments. We observe optimal convergence rates for the finite element solution of the elliptic SPDEs of interest in 2D and 3D and we show convergence of the sampled field covariances. In an MLMC setting, a good coupling is enforced and the telescoping sum is respected.</p>
-
-					</div>
-				</article>
-                
-				<article class="post">
-					<header class="entry-header">
-						<div class="entry-meta">
-                            
-						</div>
-                        
-						<h1 class="entry-title"></h1>
-					</header>
-					<div class="entry-content">
-						<h5 id="p-e-farrell-m-croci-t-m-surowiec-_deflation-for-semismooth-equations_-optimization-methods-and-software-2020---charles-broyden-prize-for-best-oms-paper-in-2020-articlehttpswwwtandfonlinecomdoifull1010801055678820191613655"><strong>P. E. Farrell, M. Croci, T. M. Surowiec, <em>Deflation for semismooth equations</em>, Optimization Methods and Software (2020) - Charles Broyden prize for best OMS paper in 2020.</strong> <a href="https://www.tandfonline.com/doi/full/10.1080/10556788.2019.1613655">Article</a>.</h5>
-<p>Variational inequalities can in general support distinct solutions. In this paper we
-study an algorithm for computing distinct solutions of a variational inequality, with-
-out varying the initial guess supplied to the solver. The central idea is the combi-
-nation of a semismooth Newton method with a deflation operator that eliminates
-known solutions from consideration. Given one root of a semismooth residual, defla-
-tion constructs a new problem for which a semismooth Newton method will not con-
-verge to the known root, even from the same initial guess. This enables the discovery
-of other roots. We prove the effectiveness of the deflation technique under the same
-assumptions that guarantee locally superlinear convergence of a semismooth New-
-ton method. We demonstrate its utility on various finite- and infinite-dimensional
-examples drawn from constrained optimization, game theory, economics and solid
-mechanics.</p>
 
 					</div>
 				</article>
@@ -368,7 +357,7 @@ mechanics.</p>
                         
                             
                                 
-                                    <a href="mailto:matteo.croci@maths.ox.ac.uk" target="_blank"><i class="fa fa-envelope fa-2"></i></a>
+                                    <a href="mailto:matteo.croci@austin.utexas.edu" target="_blank"><i class="fa fa-envelope fa-2"></i></a>
                                 
                             
                         

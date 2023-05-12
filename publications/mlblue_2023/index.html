@@ -6,7 +6,7 @@
 	<meta name="description" content="">
 	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
 
-	<title></title>
+	<title>Publications</title>
 
 	<link rel="shortcut icon" href="https://croci.github.io/images/icon.png">
 
@@ -98,12 +98,11 @@
  						<div class="entry-meta">
                             
  						</div>
- 						<h1 class="entry-title"><a href="https://croci.github.io/publications/stochastic_rounding2020/" rel="bookmark"></a></h1>
+ 						<h1 class="entry-title"><a href="https://croci.github.io/publications/mlblue_2023/" rel="bookmark">Publications</a></h1>
 					</header>
 					<div class="entry-content">
-						<h5 id="m-croci-m-b-giles-_effects-of-round-to-nearest-and-stochastic-rounding-in-the-numerical-solution-of-the-heat-equation-in-low-precision_-ima-journal-of-numerical-analysis-2022-preprinthttpsarxivorgabs201016225-slidesslidesmanchester_07-12-20pdf"><strong>M. Croci, M. B. Giles, <em>Effects of round-to-nearest and stochastic rounding in the numerical solution of the heat equation in low precision</em>, IMA Journal of Numerical Analysis (2022).</strong> <a href="https://arxiv.org/abs/2010.16225">Preprint</a>. <a href="/slides/Manchester_07-12-20.pdf">Slides</a>.</h5>
-<p>Motivated by the advent of machine learning, the last few years saw the return of hardware-supported low-precision computing. Computations with fewer digits are faster and more memory and energy efficient, but can be extremely susceptible to rounding errors. An application that can largely benefit from the advantages of low-precision computing is the numerical solution of partial differential equations (PDEs), but a careful implementation and rounding error analysis are required to ensure that sensible results can still be obtained.
-In this paper we study the accumulation of rounding errors in the solution of the heat equation, a proxy for parabolic PDEs, via Runge-Kutta finite difference methods using round-to-nearest (RtN) and stochastic rounding (SR). We demonstrate how to implement the scheme to reduce rounding errors and we derive a priori estimates for local and global rounding errors. Let u be the roundoff unit. While the worst-case local errors are O(u) with respect to the discretization parameters, the RtN and SR error behavior is substantially different. We prove that the RtN solution is discretization, initial condition and precision dependent, and always stagnates for small enough Δt. Until stagnation, the global error grows like O(u \Delta t^{-1}). In contrast, we show that the leading order errors introduced by SR are zero-mean, independent in space and mean-independent in time, making SR resilient to stagnation and rounding error accumulation. In fact, we prove that for SR the global rounding errors are only O(u\Delta t^{-1/4}) in 1D and are essentially bounded (up to logarithmic factors) in higher dimensions.</p>
+						<h5 id="m-croci-k-e-willcox-s-j-wright-_multi-output-multilevel-best-linear-unbiased-estimators-via-semidefinite-programming_-submitted-to-cmame-2023-preprinthttpsarxivorgpdf230107831pdf-softwarehttpsgithubcomcrocibluest"><strong>M. Croci, K. E. Willcox, S. J. Wright, <em>Multi-output multilevel best linear unbiased estimators via semidefinite programming</em>, Submitted to CMAME (2023).</strong> <a href="https://arxiv.org/pdf/2301.07831.pdf">Preprint</a>. <a href="https://github.com/croci/bluest">Software</a>.</h5>
+<p>Multifidelity forward uncertainty quantification (UQ) problems often involve multiple quantities of interest and heterogeneous models (e.g., different grids, equations, dimensions, physics, surrogate and reduced-order models). While computational efficiency is key in this context, multi-output strategies in multilevel/multifidelity methods are either sub-optimal or non-existent. In this paper we extend multilevel best linear unbiased estimators (MLBLUE) to multi-output forward UQ problems and we present new semidefinite programming formulations for their optimal setup. Not only do these formulations yield the optimal number of samples required, but also the optimal selection of low-fidelity models to use. While existing MLBLUE approaches are single-output only and require a non-trivial nonlinear optimization procedure, the new multi-output formulations can be solved reliably and efficiently. We demonstrate the efficacy of the new methods and formulations in practical UQ problems with model heterogeneity.</p>
 
 					</div>
 				</article>
