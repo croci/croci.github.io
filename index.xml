@@ -71,7 +71,7 @@
       <pubDate>Tue, 20 Nov 2018 12:00:00 +0000</pubDate>
       
       <guid>https://croci.github.io/publications/mlblue_2023/</guid>
-      <description>M. Croci, K. E. Willcox, S. J. Wright, Multi-output multilevel best linear unbiased estimators via semidefinite programming, To appear in Computer Methods in Applied Mechanics and Engineering (2023). Preprint. Software. Multifidelity forward uncertainty quantification (UQ) problems often involve multiple quantities of interest and heterogeneous models (e.g., different grids, equations, dimensions, physics, surrogate and reduced-order models). While computational efficiency is key in this context, multi-output strategies in multilevel/multifidelity methods are either sub-optimal or non-existent.</description>
+      <description>M. Croci, K. E. Willcox, S. J. Wright, Multi-output multilevel best linear unbiased estimators via semidefinite programming, Computer Methods in Applied Mechanics and Engineering (2023). Article. Software. Multifidelity forward uncertainty quantification (UQ) problems often involve multiple quantities of interest and heterogeneous models (e.g., different grids, equations, dimensions, physics, surrogate and reduced-order models). While computational efficiency is key in this context, multi-output strategies in multilevel/multifidelity methods are either sub-optimal or non-existent. In this paper we extend multilevel best linear unbiased estimators (MLBLUE) to multi-output forward UQ problems and we present new semidefinite programming formulations for their optimal setup.</description>
     </item>
     
     <item>
