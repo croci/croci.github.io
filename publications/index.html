@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
+
+	<title>Publications</title>
+
+	<link rel="shortcut icon" href="https://croci.github.io/images/favicon.ico">
+
+	
+	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+	
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+	
+	<link rel="stylesheet" href="https://croci.github.io/css/styles.css">
+
+	
+
+    
+
+</head>
+<body class="home">
+
+<header id="header">
+	<div id="head" class="parallax" parallax-speed="2">
+		<h1 id="logo" class="text-center">
+			<img class="img-circle" src="https://croci.github.io/images/avatar.jpg" alt="">
+			<span class="title">Matteo Croci</span>
+            <span class="tagline"><span style="font-weight: bold;">Ikerbasque Research Fellow</span><br><br>
+                Ikerbasque, the Basque Foundation for Science,<br>
+                Basque Center for Applied Mathematics (BCAM)<br><br>
+				<a href="mailto:mcroci@bcamath.org">mcroci@bcamath.org</a>
+            </span>
+		</h1>
+	</div>
+
+    <nav class="navbar navbar-default navbar-sticky">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+
+            <ul class="nav navbar-nav">
+                
+                <li>
+                    <a href="/">home</a>
+                </li>
+                
+                <li>
+                    <a href="/publications/">publications</a>
+                </li>
+                
+                <li>
+                    <a href="/talks/">selected presentations</a>
+                </li>
+                
+                <li>
+                    <a href="/teaching/">Teaching</a>
+                </li>
+                
+                <li>
+                    <a href="../../../../CurriculumVitaeWebsite.pdf">Curriculum Vitae</a>
+                </li>
+                
+                
+            </ul>
+
+        </div>
+    </div>
+</nav>
+<nav class="navbar navbar-fake"></nav>
+
+
+</header>
+
+
+<main id="main">
+
+	<div class="container">
+		<div class="row topspace">
+			<div class="col-sm-8 col-sm-offset-2">
+
+                
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
+                            
+						</div>
+                        
+						<h1 class="entry-title">Publications</h1>
+					</header>
+					<div class="entry-content">
+						<h5 id="m-croci-k-e-willcox-s-j-wright-_multi-output-multilevel-best-linear-unbiased-estimators-via-semidefinite-programming_-computer-methods-in-applied-mechanics-and-engineering-2023-articlehttpsdoiorg101016jcma2023116130-softwarehttpsgithubcomcrocibluest"><strong>M. Croci, K. E. Willcox, S. J. Wright, <em>Multi-output multilevel best linear unbiased estimators via semidefinite programming</em>, Computer Methods in Applied Mechanics and Engineering (2023).</strong> <a href="https://doi.org/10.1016/j.cma.2023.116130">Article</a>. <a href="https://github.com/croci/bluest">Software</a>.</h5>
+<p>Multifidelity forward uncertainty quantification (UQ) problems often involve multiple quantities of interest and heterogeneous models (e.g., different grids, equations, dimensions, physics, surrogate and reduced-order models). While computational efficiency is key in this context, multi-output strategies in multilevel/multifidelity methods are either sub-optimal or non-existent. In this paper we extend multilevel best linear unbiased estimators (MLBLUE) to multi-output forward UQ problems and we present new semidefinite programming formulations for their optimal setup. Not only do these formulations yield the optimal number of samples required, but also the optimal selection of low-fidelity models to use. While existing MLBLUE approaches are single-output only and require a non-trivial nonlinear optimization procedure, the new multi-output formulations can be solved reliably and efficiently. We demonstrate the efficacy of the new methods and formulations in practical UQ problems with model heterogeneity.</p>
+
+					</div>
+				</article>
+                
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
+                            
+						</div>
+                        
+						<h1 class="entry-title"></h1>
+					</header>
+					<div class="entry-content">
+						<h5 id="m-croci-g-rosilho-de-souza-_mixed-precision-explicit-stabilized-runge-kutta-methods-for-single--and-multi-scale-differential-equations_-journal-of-computational-physics-2022-articlehttpsdoiorg101016jjcp2022111349-slidesslidesnaseminar21-06-01pdf"><strong>M. Croci, G. Rosilho de Souza, <em>Mixed-precision explicit stabilized Runge-Kutta methods for single- and multi-scale differential equations</em>, Journal of Computational Physics (2022).</strong> <a href="https://doi.org/10.1016/j.jcp.2022.111349">Article</a>. <a href="/slides/NAseminar21-06-01.pdf">Slides</a>.</h5>
+<p>Mixed-precision algorithms combine low- and high-precision computations in order to benefit from the performance gains of reduced-precision without sacrificing accuracy. In this work, we design mixed-precision Runge-Kutta-Chebyshev (RKC) methods, where high precision is used for accuracy, and low precision for stability. Generally speaking, RKC methods are low-order explicit schemes with a stability domain growing quadratically with the number of function evaluations. For this reason, most of the computational effort is spent on stability rather than accuracy purposes. In this paper, we show that a naïve mixed-precision implementation of any Runge-Kutta scheme can harm the convergence order of the method and limit its accuracy, and we introduce a new class of mixed-precision RKC schemes that are instead unaffected by this limiting behaviour. We present three mixed-precision schemes: a first- and a second-order RKC method, and a first-order multirate RKC scheme for multiscale problems. These schemes perform only the few function evaluations needed for accuracy (1 or 2 for first- and second-order methods respectively) in high precision, while the rest are performed in low precision. We prove that while these methods are essentially as cheap as their fully low-precision equivalent, they retain the convergence order of their high-precision counterpart. Indeed, numerical experiments confirm that these schemes are as accurate as the corresponding high-precision method.</p>
+
+					</div>
+				</article>
+                
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
+                            
+						</div>
+                        
+						<h1 class="entry-title"></h1>
+					</header>
+					<div class="entry-content">
+						<h5 id="m-kloewer-s-hatfield-m-croci-p-dueben-t-palmer-_fluid-simulations-accelerated-with-16-bit-approaching-4x-speedup-on-a64fx-by-squeezing-shallowwatersjl-into-float16_-journal-of-advances-in-modeling-earth-systems-2021-articlehttpsdoiorg1010292021ms002684"><strong>M. Kloewer, S. Hatfield, M. Croci, P. Dueben, T. Palmer, <em>Fluid simulations accelerated with 16 bit: Approaching 4x speedup on A64FX by squeezing ShallowWaters.jl into Float16</em>, Journal of Advances in Modeling Earth Systems (2021).</strong> <a href="https://doi.org/10.1029/2021MS002684">Article</a>.</h5>
+<p>Most Earth-system simulations run on conventional CPUs in 64-bit double precision floating-point numbers Float64, although the need for high-precision calculations in the presence of large uncertainties has been questioned. Fugaku, currently the world’s fastest supercomputer, is based on A64FX microprocessors, which also support the 16-bit low-precision format Float16. We investigate the Float16 performance on A64FX with ShallowWaters.jl, the first fluid circulation model that runs entirely with 16-bit arithmetic. The model implements techniques that address precision and dynamic range issues in 16 bit. The precision-critical time integration is augmented to include compensated summation to minimize rounding errors. Such a compensated time integration is as precise but faster than mixed-precision with 16 and 32-bit floats. As subnormals are inefficiently supported on A64FX the very limited range available in Float16 is 6.10-5 to 65504. We develop the analysis-number format Sherlogs.jl to log the arithmetic results during the simulation. The equations in ShallowWaters.jl are then systematically rescaled to fit into Float16, using 97% of the available representable numbers. Consequently, we benchmark speedups of 3.8x on A64FX with Float16. Adding a compensated time integration the speedup is 3.6x. Although ShallowWaters.jl is simplified compared to large Earth-system models, it shares essential algorithms and therefore shows that 16-bit calculations are indeed a competitive way to accelerate Earth-system simulations on available hardware.</p>
+
+					</div>
+				</article>
+                
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
+                            
+						</div>
+                        
+						<h1 class="entry-title"></h1>
+					</header>
+					<div class="entry-content">
+						<h5 id="m-croci-m-fasi-n-j-higham-t-mary-m-mikaitis-_stochastic-rounding-implementation-error-analysis-and-applications_-royal-society-open-science-2022-articlehttpsdoiorg101098rsos211631"><strong>M. Croci, M. Fasi, N. J. Higham, T. Mary, M. Mikaitis, <em>Stochastic Rounding: Implementation, Error Analysis and Applications</em>, Royal Society Open Science (2022).</strong> <a href="https://doi.org/10.1098/rsos.211631">Article</a>.</h5>
+<p>Stochastic rounding randomly maps a real number to one of the two nearest values in a finite precision number system. First proposed for use in computer arithmetic in the 1950s, it is attracting renewed interest. If used in floating-point arithmetic in the computation of the inner product of two vectors of length n, it yields an error bounded by \sqrt(n)u with high probability, where u is the unit roundoff, which is not necessarily the case for round to nearest. A particular attraction of stochastic rounding is that, unlike round to nearest, it is immune to the phenomenon of stagnation, whereby a sequence of tiny updates to a relatively large quantity are lost. We survey stochastic rounding, covering its mathematical properties and probabilistic error analysis, its implementation, and its use in applications, including deep learning and the numerical solution of differential equations.</p>
+
+					</div>
+				</article>
+                
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
+                            
+						</div>
+                        
+						<h1 class="entry-title"></h1>
+					</header>
+					<div class="entry-content">
+						<h5 id="m-croci-m-b-giles-_effects-of-round-to-nearest-and-stochastic-rounding-in-the-numerical-solution-of-the-heat-equation-in-low-precision_-ima-journal-of-numerical-analysis-2022-preprinthttpsarxivorgabs201016225-slidesslidesmanchester_07-12-20pdf"><strong>M. Croci, M. B. Giles, <em>Effects of round-to-nearest and stochastic rounding in the numerical solution of the heat equation in low precision</em>, IMA Journal of Numerical Analysis (2022).</strong> <a href="https://arxiv.org/abs/2010.16225">Preprint</a>. <a href="/slides/Manchester_07-12-20.pdf">Slides</a>.</h5>
+<p>Motivated by the advent of machine learning, the last few years saw the return of hardware-supported low-precision computing. Computations with fewer digits are faster and more memory and energy efficient, but can be extremely susceptible to rounding errors. An application that can largely benefit from the advantages of low-precision computing is the numerical solution of partial differential equations (PDEs), but a careful implementation and rounding error analysis are required to ensure that sensible results can still be obtained.
+In this paper we study the accumulation of rounding errors in the solution of the heat equation, a proxy for parabolic PDEs, via Runge-Kutta finite difference methods using round-to-nearest (RtN) and stochastic rounding (SR). We demonstrate how to implement the scheme to reduce rounding errors and we derive a priori estimates for local and global rounding errors. Let u be the roundoff unit. While the worst-case local errors are O(u) with respect to the discretization parameters, the RtN and SR error behavior is substantially different. We prove that the RtN solution is discretization, initial condition and precision dependent, and always stagnates for small enough Δt. Until stagnation, the global error grows like O(u \Delta t^{-1}). In contrast, we show that the leading order errors introduced by SR are zero-mean, independent in space and mean-independent in time, making SR resilient to stagnation and rounding error accumulation. In fact, we prove that for SR the global rounding errors are only O(u\Delta t^{-1/4}) in 1D and are essentially bounded (up to logarithmic factors) in higher dimensions.</p>
+
+					</div>
+				</article>
+                
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
+                            
+						</div>
+                        
+						<h1 class="entry-title"></h1>
+					</header>
+					<div class="entry-content">
+						<h5 id="m-croci-m-b-giles-m-e-rognes-and-p-e-farrell-_multilevel-quasi-monte-carlo-methods-for-elliptic-partial-differential-equations-driven-by-spatial-white-noise_-siam-journal-on-scientific-computing-preprinthttpsarxivorgabs191112099-talkslidessiamcse19pdf"><strong>M. Croci, M. B. Giles, M. E. Rognes, and P. E. Farrell, <em>Multilevel quasi Monte Carlo methods for elliptic partial differential equations driven by spatial white noise</em>, SIAM Journal on Scientific Computing.</strong> <a href="https://arxiv.org/abs/1911.12099">Preprint</a>, <a href="/slides/siamcse19.pdf">Talk</a>.</h5>
+<p>When solving partial differential equations driven by additive spatial white noise, the efficient sampling of white noise realizations can be challenging. In this paper we focus on the efficient sampling of white noise using quasi-random points in a finite element method and multilevel Quasi Monte Carlo (MLQMC) setting. This work is an extension of previous research on white noise sampling for MLMC.</p>
+<p>We express white noise as a wavelet series expansion that we divide in two parts. The first part is sampled using quasi-random points and contains a finite number of terms in order of decaying importance to ensure good QMC convergence. The second part is a correction term which is sampled using standard pseudo-random numbers.</p>
+<p>We show how the sampling of both terms can be performed in linear time and memory complexity in the number of mesh cells via a supermesh construction. Furthermore, our technique can be used to enforce the MLQMC coupling even in the case of non-nested mesh hierarchies. We demonstrate the efficacy of our method with numerical experiments.</p>
+
+					</div>
+				</article>
+                
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
+                            
+						</div>
+                        
+						<h1 class="entry-title"></h1>
+					</header>
+					<div class="entry-content">
+						<h5 id="m-croci-v-vinje-and-m-e-rognes-_fast-uncertainty-quantification-of-tracer-distribution-in-the-brain-interstitial-fluid-with-multilevel-and-quasi-monte-carlo_-international-journal-for-numerical-methods-in-biomedical-engineering-preprinthttpsarxivorgabs200302311"><strong>M. Croci, V. Vinje and M. E. Rognes, <em>Fast uncertainty quantification of tracer distribution in the brain interstitial fluid with multilevel and quasi Monte Carlo</em>, International Journal for Numerical Methods in Biomedical Engineering.</strong> <a href="https://arxiv.org/abs/2003.02311">Preprint</a>.</h5>
+<p>Efficient uncertainty quantification algorithms are key to understand the propagation of uncertainty &ndash; from uncertain input parameters to uncertain output quantities &ndash; in high resolution mathematical models of brain physiology. Advanced Monte Carlo methods such as quasi Monte Carlo (QMC) and multilevel Monte Carlo (MLMC) have the potential to dramatically improve upon standard Monte Carlo (MC) methods, but their applicability and performance in biomedical applications is underexplored. In this paper, we design and apply QMC and MLMC methods to quantify uncertainty in a convection-diffusion model of tracer transport within the brain. We show that QMC outperforms standard MC simulations when the number of random inputs is small. MLMC considerably outperforms both QMC and standard MC methods and should therefore be preferred for brain transport models.</p>
+
+					</div>
+				</article>
+                
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
+                            
+						</div>
+                        
+						<h1 class="entry-title"></h1>
+					</header>
+					<div class="entry-content">
+						<h5 id="m-croci-and-p-e-farrell-_complexity-bounds-on-supermesh-construction-for-quasi-uniform-meshes_-journal-of-computational-physics-414-2020-pp-17-articlehttpswwwsciencedirectcomsciencearticlepiis0021999120302333-preprinthttpsarxivorgabs191111589"><strong>M. Croci and P. E. Farrell, <em>Complexity bounds on supermesh construction for quasi-uniform meshes</em>, Journal of Computational Physics 414 (2020), pp. 1–7.</strong> <a href="https://www.sciencedirect.com/science/article/pii/S0021999120302333">Article</a>. <a href="https://arxiv.org/abs/1911.11589">Preprint</a>.</h5>
+<p>Projecting fields between different meshes commonly arises in computational physics. This operation may require a supermesh construction and in this case its computational cost is proportional to the number of cells of the supermesh n. Given any two quasi-uniform meshes of nA and nB cells respectively, we show under standard assumptions that n is proportional to nA + nB. This result substantially improves on the best currently available upper bound on n and is fundamental for the analysis of algorithms that use supermeshes.</p>
+
+					</div>
+				</article>
+                
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
+                            
+						</div>
+                        
+						<h1 class="entry-title"></h1>
+					</header>
+					<div class="entry-content">
+						<h5 id="m-croci-v-vinje-m-e-rognes-_uncertainty-quantification-of-parenchymal-tracer-distribution-using-random-diffusion-and-convective-velocity-fields_-fluids-and-barriers-of-the-cns-16-1-2019-pp-1-32-articlehttpsfluidsbarrierscnsbiomedcentralcomarticles101186s12987-019-0152-7"><strong>M. Croci, V. Vinje, M. E. Rognes, <em>Uncertainty quantification of parenchymal tracer distribution using random diffusion and convective velocity fields</em>, Fluids and Barriers of the CNS 16-1 (2019), pp. 1-32.</strong> <a href="https://fluidsbarrierscns.biomedcentral.com/articles/10.1186/s12987-019-0152-7">Article</a>.</h5>
+<p><strong>Background</strong>: Influx and clearance of substances in the brain parenchyma occur by a combination of diffusion and convection, but the relative importance of thiese mechanisms is unclear.  Accurate modeling of tracer distributions in the brain relies on parameters that are partially unknown and with literature values varying up to 7 orders of magnitude. In this work, we rigorously quantified the variability of tracer enhancement in the brain resulting from uncertainty in diffusion and convection model parameters.<br>
+<strong>Methods</strong>: In a mesh of a human brain, using the convection-diffusion-reaction equation, we simulated tracer enhancement in the brain parenchyma after intrathecal injection. Several models were tested to assess the uncertainty both in type of diffusion and velocity fields and also the importance of their magnitude. Our results were compared with experimental MRI results of tracer enhancement.<br>
+<strong>Results</strong>: In models of pure diffusion, the expected amount of tracer in the gray matter reached peak value after 15 hours, while the white matter does not reach peak within 24 hours with high likelihood. Models of the glymphatic system behave qualitatively similar as the models of pure diffusion with respect to expected time to peak but display less variability. However, the expected time to peak was reduced to 11 hours when an additional directionality was prescribed for the glymphatic circulation. In a model including drainage directly from the brain parenchyma, time to peak occured after 6-8 hours for the gray matter.  Conclusion: Even when uncertainties are taken into account, we find that diffusion alone is not sufficient to explain transport of tracer deep into the white matter as seen in experimental data. A glymphatic velocity field may increase transport if a directional structure is included in the glymphatic circulation</p>
+
+					</div>
+				</article>
+                
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
+                            
+						</div>
+                        
+						<h1 class="entry-title"></h1>
+					</header>
+					<div class="entry-content">
+						<h5 id="m-croci-m-b-giles-m-e-rognes-and-p-e-farrell-_efficient-white-noise-sampling-and-coupling-for-multilevel-monte-carlo-with-non-nested-meshes_-siamasa-journal-on-uncertainty-quantification-6-4-2018-pp-1630-1655-articlehttpsdoiorg10113718m1175239-talkslidesmcqmc18pdf"><strong>M. Croci, M. B. Giles, M. E. Rognes, and P. E. Farrell, <em>Efficient white noise sampling and coupling for multilevel Monte Carlo with non-nested meshes</em>, SIAM/ASA Journal on Uncertainty Quantification 6-4 (2018), pp. 1630-1655.</strong> <a href="https://doi.org/10.1137/18M1175239">Article</a>. <a href="/slides/mcqmc18.pdf">Talk</a>.</h5>
+<p>When solving stochastic partial differential equations (SPDEs) driven by additive spatial white noise, the efficient sampling of white noise realizations can be challenging. Here, we present a new sampling technique that can be used to efficiently compute white noise samples in a finite element method (FEM) and multilevel Monte Carlo (MLMC) setting. The key idea is to exploit the finite element matrix assembly procedure and factorize each local mass matrix independently, hence avoiding the factorization of a large matrix. Moreover, in an MLMC framework, the white noise samples must be coupled between subsequent levels. We show how our technique can be used to enforce this coupling even in the case of nonnested mesh hierarchies. We demonstrate the efficacy of our method with numerical experiments. We observe optimal convergence rates for the finite element solution of the elliptic SPDEs of interest in 2D and 3D and we show convergence of the sampled field covariances. In an MLMC setting, a good coupling is enforced and the telescoping sum is respected.</p>
+
+					</div>
+				</article>
+                
+
+			</div>
+		</div>
+
+		<center class="">
+			<ul class="pagination">
+                
+    <ul class="pagination pagination-default">
+      <li class="page-item disabled">
+        <a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </li>
+      <li class="page-item disabled">
+        <a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
+      </li>
+      <li class="page-item active">
+        <a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
+      </li>
+      <li class="page-item">
+        <a href="/publications/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
+      </li>
+      <li class="page-item">
+        <a href="/publications/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/publications/page/2/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      </li>
+    </ul>
+			</ul>
+		</center>
+
+
+	</div>	
+
+</main>
+
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Contact</h3>
+				<div class="widget-body">
+					<p>
+					<a href="mailto:mcroci@bcamath.org">mcroci@bcamath.org</a><br>
+						<br>
+						Basque Center for Applied Mathematics (BCAM), Mazarredo Zumarkalea 14, 48009 Bilbao, Bizkaia, Spain
+					</p>
+				</div>
+			</div>
+			
+
+			
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Follow me</h3>
+				<div class="widget-body">
+					<p class="follow-me-icons">
+                        
+                            
+                                
+                                    <a href="https://www.linkedin.com/in/matteo-croci-262667136/" target="_blank"><i class="fa fa-linkedin fa-2"></i></a>
+                                
+                            
+                        
+                            
+                                
+                                    <a href="https://github.com/croci" target="_blank"><i class="fa fa-github fa-2"></i></a>
+                                
+                            
+                        
+                            
+                                
+                                    <a href="https://scholar.google.co.uk/citations?user=AmQKnwcAAAAJ&amp;hl=en" target="_blank"><i class="ai ai-google-scholar ai"></i></a>
+                                
+                            
+                        
+                            
+                                
+                                    <a href="https://bitbucket.org/croci/" target="_blank"><i class="fa fa-bitbucket fa-2"></i></a>
+                                
+                            
+                        
+                            
+                                
+                                    <a href="mailto:mcroci@bcamath.org" target="_blank"><i class="fa fa-envelope fa-2"></i></a>
+                                
+                            
+                        
+					</p>
+				</div>
+			</div>
+			
+
+			
+
+			
+
+		</div> 
+	</div>
+</footer>
+
+<footer id="underfooter">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p>Basque Center for Applied Mathematics (BCAM), Mazarredo Zumarkalea 14, 48009 Bilbao, Bizkaia, Spain</p>
+				</div>
+			</div>
+
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p class="text-right">
+						Copyright &copy; 2024, Matteo Croci<br>
+						Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> - 
+                        Powered by: <a href="https://gohugo.io/" rel="poweredby">Hugo</a>
+                    </p>
+				</div>
+			</div>
+
+		</div> 
+	</div>
+</footer>
+
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="https://croci.github.io/js/template.js"></script>
+
+</body>
+</html>
+

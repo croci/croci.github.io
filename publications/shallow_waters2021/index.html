@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
+
+	<title></title>
+
+	<link rel="shortcut icon" href="https://croci.github.io/images/favicon.ico">
+
+	
+	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+	
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+	
+	<link rel="stylesheet" href="https://croci.github.io/css/styles.css">
+
+	
+
+    
+
+</head>
+<body class="home">
+
+<header id="header">
+	<div id="head" class="parallax" parallax-speed="2">
+		<h1 id="logo" class="text-center">
+			<img class="img-circle" src="https://croci.github.io/images/avatar.jpg" alt="">
+			<span class="title">Matteo Croci</span>
+            <span class="tagline"><span style="font-weight: bold;">Ikerbasque Research Fellow</span><br><br>
+                Ikerbasque, the Basque Foundation for Science,<br>
+                Basque Center for Applied Mathematics (BCAM)<br><br>
+				<a href="mailto:mcroci@bcamath.org">mcroci@bcamath.org</a>
+            </span>
+		</h1>
+	</div>
+
+    <nav class="navbar navbar-default navbar-sticky">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+
+            <ul class="nav navbar-nav">
+                
+                <li>
+                    <a href="/">home</a>
+                </li>
+                
+                <li>
+                    <a href="/publications/">publications</a>
+                </li>
+                
+                <li>
+                    <a href="/talks/">selected presentations</a>
+                </li>
+                
+                <li>
+                    <a href="/teaching/">Teaching</a>
+                </li>
+                
+                <li>
+                    <a href="../../../../CurriculumVitaeWebsite.pdf">Curriculum Vitae</a>
+                </li>
+                
+                
+            </ul>
+
+        </div>
+    </div>
+</nav>
+<nav class="navbar navbar-fake"></nav>
+
+
+</header>
+
+
+<main id="main">
+
+	<div class="container">
+
+		<div class="row topspace">
+			<div class="col-sm-8 col-sm-offset-2">
+
+ 				<article class="post">
+					<header class="entry-header">
+ 						<div class="entry-meta">
+                            
+ 						</div>
+ 						<h1 class="entry-title"><a href="https://croci.github.io/publications/shallow_waters2021/" rel="bookmark"></a></h1>
+					</header>
+					<div class="entry-content">
+						<h5 id="m-kloewer-s-hatfield-m-croci-p-dueben-t-palmer-_fluid-simulations-accelerated-with-16-bit-approaching-4x-speedup-on-a64fx-by-squeezing-shallowwatersjl-into-float16_-journal-of-advances-in-modeling-earth-systems-2021-articlehttpsdoiorg1010292021ms002684"><strong>M. Kloewer, S. Hatfield, M. Croci, P. Dueben, T. Palmer, <em>Fluid simulations accelerated with 16 bit: Approaching 4x speedup on A64FX by squeezing ShallowWaters.jl into Float16</em>, Journal of Advances in Modeling Earth Systems (2021).</strong> <a href="https://doi.org/10.1029/2021MS002684">Article</a>.</h5>
+<p>Most Earth-system simulations run on conventional CPUs in 64-bit double precision floating-point numbers Float64, although the need for high-precision calculations in the presence of large uncertainties has been questioned. Fugaku, currently the world’s fastest supercomputer, is based on A64FX microprocessors, which also support the 16-bit low-precision format Float16. We investigate the Float16 performance on A64FX with ShallowWaters.jl, the first fluid circulation model that runs entirely with 16-bit arithmetic. The model implements techniques that address precision and dynamic range issues in 16 bit. The precision-critical time integration is augmented to include compensated summation to minimize rounding errors. Such a compensated time integration is as precise but faster than mixed-precision with 16 and 32-bit floats. As subnormals are inefficiently supported on A64FX the very limited range available in Float16 is 6.10-5 to 65504. We develop the analysis-number format Sherlogs.jl to log the arithmetic results during the simulation. The equations in ShallowWaters.jl are then systematically rescaled to fit into Float16, using 97% of the available representable numbers. Consequently, we benchmark speedups of 3.8x on A64FX with Float16. Adding a compensated time integration the speedup is 3.6x. Although ShallowWaters.jl is simplified compared to large Earth-system models, it shares essential algorithms and therefore shows that 16-bit calculations are indeed a competitive way to accelerate Earth-system simulations on available hardware.</p>
+
+					</div>
+				</article>
+
+			</div>
+		</div> 
+
+        <div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+
+				<div id="share">
+                    
+				</div>
+			</div>
+		</div> 
+		<div class="clearfix"></div>
+
+		<div class="row">
+			<div class="col-sm-8 col-sm-offset-2">
+
+				<div id="comments">
+                    
+				</div>
+			</div>
+		</div> 
+		<div class="clearfix"></div>
+
+	</div>	
+
+</main>
+
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Contact</h3>
+				<div class="widget-body">
+					<p>
+					<a href="mailto:mcroci@bcamath.org">mcroci@bcamath.org</a><br>
+						<br>
+						Basque Center for Applied Mathematics (BCAM), Mazarredo Zumarkalea 14, 48009 Bilbao, Bizkaia, Spain
+					</p>
+				</div>
+			</div>
+			
+
+			
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Follow me</h3>
+				<div class="widget-body">
+					<p class="follow-me-icons">
+                        
+                            
+                                
+                                    <a href="https://www.linkedin.com/in/matteo-croci-262667136/" target="_blank"><i class="fa fa-linkedin fa-2"></i></a>
+                                
+                            
+                        
+                            
+                                
+                                    <a href="https://github.com/croci" target="_blank"><i class="fa fa-github fa-2"></i></a>
+                                
+                            
+                        
+                            
+                                
+                                    <a href="https://scholar.google.co.uk/citations?user=AmQKnwcAAAAJ&amp;hl=en" target="_blank"><i class="ai ai-google-scholar ai"></i></a>
+                                
+                            
+                        
+                            
+                                
+                                    <a href="https://bitbucket.org/croci/" target="_blank"><i class="fa fa-bitbucket fa-2"></i></a>
+                                
+                            
+                        
+                            
+                                
+                                    <a href="mailto:mcroci@bcamath.org" target="_blank"><i class="fa fa-envelope fa-2"></i></a>
+                                
+                            
+                        
+					</p>
+				</div>
+			</div>
+			
+
+			
+
+			
+
+		</div> 
+	</div>
+</footer>
+
+<footer id="underfooter">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p>Basque Center for Applied Mathematics (BCAM), Mazarredo Zumarkalea 14, 48009 Bilbao, Bizkaia, Spain</p>
+				</div>
+			</div>
+
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p class="text-right">
+						Copyright &copy; 2024, Matteo Croci<br>
+						Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> - 
+                        Powered by: <a href="https://gohugo.io/" rel="poweredby">Hugo</a>
+                    </p>
+				</div>
+			</div>
+
+		</div> 
+	</div>
+</footer>
+
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="https://croci.github.io/js/template.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en-uk">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
+
+	<title>Talks</title>
+
+	<link rel="shortcut icon" href="https://croci.github.io/images/favicon.ico">
+
+	
+	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+	
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<link href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+	
+	<link rel="stylesheet" href="https://croci.github.io/css/styles.css">
+
+	
+
+    
+
+</head>
+<body class="home">
+
+<header id="header">
+	<div id="head" class="parallax" parallax-speed="2">
+		<h1 id="logo" class="text-center">
+			<img class="img-circle" src="https://croci.github.io/images/avatar.jpg" alt="">
+			<span class="title">Matteo Croci</span>
+            <span class="tagline"><span style="font-weight: bold;">Ikerbasque Research Fellow</span><br><br>
+                Ikerbasque, the Basque Foundation for Science,<br>
+                Basque Center for Applied Mathematics (BCAM)<br><br>
+				<a href="mailto:mcroci@bcamath.org">mcroci@bcamath.org</a>
+            </span>
+		</h1>
+	</div>
+
+    <nav class="navbar navbar-default navbar-sticky">
+    <div class="container-fluid">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
+
+            <ul class="nav navbar-nav">
+                
+                <li>
+                    <a href="/">home</a>
+                </li>
+                
+                <li>
+                    <a href="/publications/">publications</a>
+                </li>
+                
+                <li>
+                    <a href="/talks/">selected presentations</a>
+                </li>
+                
+                <li>
+                    <a href="/teaching/">Teaching</a>
+                </li>
+                
+                <li>
+                    <a href="../../../../CurriculumVitaeWebsite.pdf">Curriculum Vitae</a>
+                </li>
+                
+                
+            </ul>
+
+        </div>
+    </div>
+</nav>
+<nav class="navbar navbar-fake"></nav>
+
+
+</header>
+
+
+<main id="main">
+
+	<div class="container">
+		<div class="row topspace">
+			<div class="col-sm-8 col-sm-offset-2">
+
+                
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
+                            
+						</div>
+                        
+						<h1 class="entry-title">Selected Presentations</h1>
+					</header>
+					<div class="entry-content">
+						<h5 id="m-croci-_mixed-precision-explicit-runge-kutta-methods_-ima-leslie-fox-prize-event-glasgow-2023-downloadslideslesliefoxprize2023_26-06-23pdf"><strong>M. Croci, <em>Mixed-precision explicit Runge-Kutta methods</em>, IMA Leslie Fox Prize Event, Glasgow (2023).</strong> <a href="/slides/LeslieFoxPrize2023_26-06-23.pdf">Download</a>.</h5>
+<p>Motivated by the advent of machine learning, the last few years saw the return of hardware-supported reduced-precision computing. Computations with fewer digits are faster and more memory and energy efficient, but a careful implementation and rounding error analysis are required to ensure that sensible results can still be obtained. In this talk we focus on mixed-precision explicit Runge-Kutta (RK) methods. Mixed-precision algorithms combine low- and high-precision computations in order to benefit from the performance gains of reduced-precision while retaining good accuracy. We show that a naive mixed-precision implementation of RK schemes harms convergence and leads to error stagnation, and we present a more accurate alternative. We introduce new RK-Chebyshev schemes that only use $q\in{1,2}$ high-precision function evaluations to achieve a limiting convergence order of $O(\Delta t^{q})$, leaving the remaining evaluations in low precision. These methods are essentially as cheap as their fully low-precision equivalent and they are as accurate and (almost) as stable as their high-precision counterpart.</p>
+
+					</div>
+				</article>
+                
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
+                            
+						</div>
+                        
+						<h1 class="entry-title"></h1>
+					</header>
+					<div class="entry-content">
+						<h5 id="m-croci-_solving-differential-equations-in-reduced--and-mixed-precision_-oden-institute-yale-university-and-ecole-polytecnique-federale-de-lausanne-2022-downloadslidesoden_22-04-21pdf"><strong>M. Croci, <em>Solving differential equations in reduced- and mixed-precision</em>, Oden Institute, Yale University and Ecole Polytecnique Federale de Lausanne (2022).</strong> <a href="/slides/Oden_22-04-21.pdf">Download</a>.</h5>
+<p>Motivated by the advent of machine learning, the last few years saw the return of hardware-supported reduced-precision computing.
+Computations with fewer digits are faster and more memory and energy efficient, but a careful implementation and rounding error
+analysis are required to ensure that sensible results can still be obtained.</p>
+<p>This talk is divided in two parts in which we focus on reduced- and mixed-precision algorithms respectively.
+Reduced-precision algorithms obtain an as accurate solution as possible given the precision while avoiding catastrophic rounding error accumulation.
+Mixed-precision algorithms, on the other hand, combine low- and high-precision computations in order to benefit from
+the performance gains of reduced-precision while retaining good accuracy.</p>
+<p>In the first part of the talk we study the accumulation of rounding errors in the solution of the heat equation,
+a proxy for parabolic PDEs, in reduced precision using round-to-nearest (RtN) and stochastic rounding (SR).
+We demonstrate how to implement the numerical scheme to reduce rounding errors and we present \emph{a priori}
+estimates for local and global rounding errors. While the RtN solution leads to rapid rounding error accumulation and stagnation,
+SR leads to much more robust implementations for which the error remains at roughly the same level of the working precision.</p>
+<p>In the second part of the talk we focus on mixed-precision explicit stabilised Runge-Kutta methods.
+We show that a naive mixed-precision implementation harms convergence and leads to error stagnation,
+and we present a more accurate alternative. We introduce new Runge-Kutta-Chebyshev schemes that only use $q\in{1,2}$
+high-precision function evaluations to achieve a limiting convergence order of $O(\Delta t^{q})$,
+leaving the remaining evaluations in low precision. These methods are essentially as cheap as their fully low-precision equivalent
+and they are as accurate and (almost) as stable as their high-precision counterpart.</p>
+
+					</div>
+				</article>
+                
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
+                            
+						</div>
+                        
+						<h1 class="entry-title"></h1>
+					</header>
+					<div class="entry-content">
+						<h5 id="m-croci-and-m-b-giles-_solving-parabolic-pdes-in-half-precision_-siam-cse-2021-and-nla-group-meeting-university-of-manchester-2020-2021-downloadslidesmanchester_07-12-20pdf"><strong>M. Croci and M. B. Giles, <em>Solving parabolic PDEs in half precision</em>, SIAM CSE 2021 and NLA Group meeting, University of Manchester (2020-2021).</strong> <a href="/slides/Manchester_07-12-20.pdf">Download</a>.</h5>
+<p>Motivated by the advent of machine learning, the last few years saw the return of hardware-supported low-precision computing. Computations with fewer digits are faster and more memory and energy efficient, but can be extremely susceptible to rounding errors. An application that can largely benefit from the advantages of low-precision computing is the numerical solution of partial differential equations (PDEs), but a careful implementation and rounding error analysis are required to ensure that sensible results can still be obtained.</p>
+<p>In this talk we study the accumulation of rounding errors in the solution of the heat equation, a proxy for parabolic PDEs, via Runge-Kutta finite difference methods using round-to-nearest (RtN) and stochastic rounding (SR). We demonstrate how to implement the numerical scheme to reduce rounding errors and we present \emph{a priori} estimates for local and global rounding errors. Let $u$ be the roundoff unit. While the worst-case local errors are $O(u)$ with respect to the discretization parameters, the RtN and SR error behaviour is substantially different. We show that the RtN solution is discretization, initial condition and precision dependent, and always stagnates for small enough $\Delta t$. Until stagnation, the global error grows like $O(u\Delta t^{-1})$. In contrast, the leading order errors introduced by SR are zero-mean, independent in space and mean-independent in time, making SR resilient to stagnation and rounding error accumulation. In fact, we prove that for SR the global rounding errors are only $O(u\Delta t^{-1/4})$ in 1D and are essentially bounded (up to logarithmic factors) in higher dimensions.</p>
+
+					</div>
+				</article>
+                
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
+                            
+						</div>
+                        
+						<h1 class="entry-title"></h1>
+					</header>
+					<div class="entry-content">
+						<h5 id="m-croci-m-b-giles-p-e-farrell-m-e-rognes-v-vinje-_non-nested-multilevel-monte-carlo-methods-with-applications-to-brain-simulation_-oden-institute-2021-downloadslidesodenpecos_21-02-10pdf"><strong>M. Croci, M. B. Giles, P. E. Farrell, M. E. Rognes, V. Vinje, <em>Non-nested multilevel Monte Carlo methods with applications to brain simulation</em>, Oden Institute (2021).</strong> <a href="/slides/OdenPECOS_21-02-10.pdf">Download</a>.</h5>
+<p>This talk consists of two parts. In the first, we develop two new strategies for spatial white noise and Gaussian-Matérn field sampling that work within a non-nested multilevel (quasi) Monte Carlo (ML(Q)MC) hierarchy. In the second, we apply the techniques developed to quantify the level of uncertainty in a new stochastic model for tracer transport in the brain.</p>
+<p>The new sampling techniques are based on the stochastic partial differential equation (SPDE) approach, which recasts the sampling problem as the solution of an elliptic equation driven by spatial white noise. The efficient sampling of white noise realisations can be computationally expensive. In this talk, we present two new sampling techniques that can be used to efficiently compute white noise samples in a FEM-MLMC and FEM-MLQMC setting. The key idea is to exploit the finite element matrix assembly procedure and factorise each local mass matrix independently, hence avoiding the factorisation of a large matrix. In a multilevel framework, the white noise samples must be coupled between subsequent levels. We show how our technique can be used to enforce this coupling even in the case of non-nested mesh hierarchies.</p>
+<p>In the MLQMC case, the QMC integrand variables must also be ordered in order of decaying importance to achieve fast convergence with respect to the number of samples. We express white noise as a Haar wavelet series whose hierarchical structure naturally exposes the leading order dimensions. We split this series in two terms which we sample via a hybrid standard Monte Carlo/QMC approach.</p>
+<p>In the final part of the talk, we employ a combination of the methods presented to solve a PDE with random coefficients describing tracer transport within the interstitial fluid of the brain.</p>
+
+					</div>
+				</article>
+                
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
+                            
+						</div>
+                        
+						<h1 class="entry-title"></h1>
+					</header>
+					<div class="entry-content">
+						<h5 id="m-croci-m-b-giles-m-e-rognes-and-p-e-farrell-_mlqmc-methods-for-elliptic-pdes-driven-by-white-noise_-siam-cse-2019-spokane-usa-and-iciam-2019-valencia-spain-downloadslidessiamcse19pdf"><strong>M. Croci, M. B. Giles, M. E. Rognes, and P. E. Farrell, <em>MLQMC Methods for Elliptic PDEs Driven by White Noise</em>, SIAM CSE 2019, Spokane, USA and ICIAM 2019, Valencia, Spain.</strong> <a href="/slides/siamcse19.pdf">Download</a>.</h5>
+<p>When solving partial differential equations driven by additive spatial white noise, the efficient sampling of white noise realizations can be challenging. In this paper we focus on the efficient sampling of white noise using quasi-random points in a finite element method and multilevel Quasi Monte Carlo (MLQMC) setting. This work is an extension of previous research on white noise sampling for MLMC.</p>
+<p>We express white noise as a wavelet series expansion that we divide in two parts. The first part is sampled using quasi-random points and contains a finite number of terms in order of decaying importance to ensure good QMC convergence. The second part is a correction term which is sampled using standard pseudo-random numbers.</p>
+<p>We show how the sampling of both terms can be performed in linear time and memory complexity in the number of mesh cells via a supermesh construction. Furthermore, our technique can be used to enforce the MLQMC coupling even in the case of non-nested mesh hierarchies. We demonstrate the efficacy of our method with numerical experiments.</p>
+
+					</div>
+				</article>
+                
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
+                            
+						</div>
+                        
+						<h1 class="entry-title"></h1>
+					</header>
+					<div class="entry-content">
+						<h5 id="m-croci-m-b-giles-m-e-rognes-and-p-e-farrell-_efficient-white-noise-sampling-and-coupling-for-multilevel-monte-carlo_-mcqmc-2018-rennes-france-downloadslidesmcqmc18pdf"><strong>M. Croci, M. B. Giles, M. E. Rognes, and P. E. Farrell, <em>Efficient white noise sampling and coupling for multilevel Monte Carlo</em>, MCQMC 2018, Rennes, France.</strong> <a href="/slides/mcqmc18.pdf">Download</a>.</h5>
+<p>When solving stochastic partial differential equations (SPDEs) driven by additive spatial white noise
+the efficient sampling of white noise realizations can be challenging. In this talk we present a novel
+sampling technique that can be used to efficiently compute white noise samples in a finite element and
+multilevel Monte Carlo (MLMC) setting.</p>
+<p>After discretization, the action of white noise on a test function yields a Gaussian vector with the
+FEM mass matrix as covariance. Sampling such a vector requires an expensive Cholesky factorization and
+for this reason P0 representations, for which the mass matrix is diagonal, are generally preferred in the
+literature. This however has other disadvantages. In this talk we introduce an alternative factorization
+that is naturally parallelizable and has linear cost and memory complexity (in the number of mesh
+elements).</p>
+<p>Moreover, in a MLMC framework the white noise samples must be coupled between subsequent levels
+so as to respect the telescoping sum. We show how our technique can be used to enforce this coupling
+even in the case in which the hierarchy is non-nested via a supermesh construction.
+We conclude the talk with numerical experiments that demonstrate the efficacy of our method. We
+observe optimal convergence rates for the finite element solution of the elliptic SPDEs of interest. In a
+MLMC setting, a good coupling is enforced and the telescoping sum is respected.</p>
+
+					</div>
+				</article>
+                
+
+			</div>
+		</div>
+
+		<center class="">
+			<ul class="pagination">
+                
+			</ul>
+		</center>
+
+
+	</div>	
+
+</main>
+
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Contact</h3>
+				<div class="widget-body">
+					<p>
+					<a href="mailto:mcroci@bcamath.org">mcroci@bcamath.org</a><br>
+						<br>
+						Basque Center for Applied Mathematics (BCAM), Mazarredo Zumarkalea 14, 48009 Bilbao, Bizkaia, Spain
+					</p>
+				</div>
+			</div>
+			
+
+			
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Follow me</h3>
+				<div class="widget-body">
+					<p class="follow-me-icons">
+                        
+                            
+                                
+                                    <a href="https://www.linkedin.com/in/matteo-croci-262667136/" target="_blank"><i class="fa fa-linkedin fa-2"></i></a>
+                                
+                            
+                        
+                            
+                                
+                                    <a href="https://github.com/croci" target="_blank"><i class="fa fa-github fa-2"></i></a>
+                                
+                            
+                        
+                            
+                                
+                                    <a href="https://scholar.google.co.uk/citations?user=AmQKnwcAAAAJ&amp;hl=en" target="_blank"><i class="ai ai-google-scholar ai"></i></a>
+                                
+                            
+                        
+                            
+                                
+                                    <a href="https://bitbucket.org/croci/" target="_blank"><i class="fa fa-bitbucket fa-2"></i></a>
+                                
+                            
+                        
+                            
+                                
+                                    <a href="mailto:mcroci@bcamath.org" target="_blank"><i class="fa fa-envelope fa-2"></i></a>
+                                
+                            
+                        
+					</p>
+				</div>
+			</div>
+			
+
+			
+
+			
+
+		</div> 
+	</div>
+</footer>
+
+<footer id="underfooter">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p>Basque Center for Applied Mathematics (BCAM), Mazarredo Zumarkalea 14, 48009 Bilbao, Bizkaia, Spain</p>
+				</div>
+			</div>
+
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p class="text-right">
+						Copyright &copy; 2024, Matteo Croci<br>
+						Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> - 
+                        Powered by: <a href="https://gohugo.io/" rel="poweredby">Hugo</a>
+                    </p>
+				</div>
+			</div>
+
+		</div> 
+	</div>
+</footer>
+
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="https://croci.github.io/js/template.js"></script>
+
+</body>
+</html>
+
