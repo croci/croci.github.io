@@ -33,8 +33,8 @@
 			<img class="img-circle" src="https://croci.github.io/images/avatar.jpg" alt="">
 			<span class="title">Matteo Croci</span>
             <span class="tagline"><span style="font-weight: bold;">Ikerbasque Research Fellow</span><br><br>
-                Ikerbasque, the Basque Foundation for Science,<br>
-                Basque Center for Applied Mathematics (BCAM)<br><br>
+                Basque Center for Applied Mathematics (BCAM),<br>
+                Ikerbasque, the Basque Foundation for Science<br><br>
 				<a href="mailto:mcroci@bcamath.org">mcroci@bcamath.org</a>
             </span>
 		</h1>
@@ -102,6 +102,54 @@
 						</div>
                         
 						<h1 class="entry-title">Selected Presentations</h1>
+					</header>
+					<div class="entry-content">
+						<h5 id="m-croci-g-n-wells-_reduced--and-mixed-precision-finite-element-kernels_-fenics-2024-simula-research-laboratory-oslo-norway-2024-downloadslides2024_06_14_fenics24_oslopdf"><strong>M. Croci, G. N. Wells, <em>Reduced- and mixed-precision finite element kernels</em>, FEniCS 2024. Simula Research Laboratory, Oslo, Norway, (2024).</strong> <a href="/slides/2024_06_14_FEniCS24_Oslo.pdf">Download</a>.</h5>
+<p>In this talk we investigate the effect of rounding errors in the computation of finite element (FE) kernels
+and we develop strategies for reduced- and mixed-precision acceleration using half-precision floating point formats.
+Possible applications of this work include: reduced- and mixed-precision preconditioning, linear and nonlinear solvers, and timestepping methods.</p>
+<p>The popularity of artificial intelligence has pushed for the design of computer architectures that
+are increasingly faster at performing computations using fewer bits. For instance, 16-bit half-precision computations
+are over 32 times more efficient than double precision computations on NVIDIA H100 GPU tensor cores. However,
+reducing the precision leads to a significant increase in rounding errors and extreme care must be taken during algorithmic design.</p>
+<p>With the objective of exploiting these new chip capabilities in FE methods, we focus on FE cell kernels for matrix assembly.
+By analysing the algorithm used by FFCx, we show that the total rounding error is comprised of two terms:</p>
+<ol>
+<li>A geometry term depending on the condition number of the Jacobian of the map to the reference cell.</li>
+<li>A quadrature term growing with the number of quadrature nodes.
+Based on this analysis, we propose a strategy for obtaining machine-accurate results at negligible efficiency loss via a mixed-precision treatment.</li>
+</ol>
+<p>While this is currently work in progress, early-stage numerical experiments on Intel Sapphire Rapids CPUs show appreciable speedups compared to
+their double precision equivalents and support our theoretical findings. Additionally, we show how the latest Sapphire Rapids AMX-BF16 registers
+and instructions offer great promise for further incresing accuracy and speed (although compiler and/or register improvements would be needed).</p>
+
+					</div>
+				</article>
+                
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
+                            
+						</div>
+                        
+						<h1 class="entry-title"></h1>
+					</header>
+					<div class="entry-content">
+						<h5 id="m-croci-_multilevel-monte-carlo-methods-for-the-approximation-of-failure-probability-regions_-computational-mathematics-and-applications-seminar-university-of-oxford-uk-2024-downloadslides2024-05-16_oxford_na_seminarpdf"><strong>M. Croci, <em>Multilevel Monte Carlo methods for the approximation of failure probability regions</em>, Computational Mathematics and Applications Seminar, University of Oxford, UK (2024).</strong> <a href="/slides/2024-05-16_Oxford_NA_seminar.pdf">Download</a>.</h5>
+<p>In this talk, we consider the problem of approximating failure regions. More specifically, given a costly computational model with random parameters and a failure condition, our objective is to determine the parameter region in which the failure condition is likely to not be satisfied. In mathematical terms, this problem can be cast as approximating the level set of a probability density function. We solve this problem by dividing it into two: 1) The design of an efficient Monte Carlo strategy for probability estimation. 2) The construction of an efficient algorithm for level-set approximation. Following this structure, this talk is comprised of two parts:</p>
+<p>In the first part, we present a new multi-output multilevel best linear unbiased estimator (MLBLUE) for approximating expectations. The advantage of this estimator is in its convenience and optimality: Given any set of computational models with known covariance structure, MLBLUE automatically constructs a provenly optimal estimator for any (finite) number of quantities of interest. Nevertheless, the optimality of MLBLUE is tied to its optimal set-up, which requires the solution of a nonlinear optimization problem. We show how the latter can be reformulated as a semi-definite program and thus be solved reliably and efficiently.</p>
+<p>In the second part, we construct an adaptive level-set approximation algorithm for smooth functions corrupted by noise in $\mathbb{R}^d$. This algorithm only requires point value data and is thus compatible with Monte Carlo estimators. The algorithm is comprised of a criterion for level-set adaptivity combined with an a posteriori error estimator. Under suitable assumptions, we can prove that our algorithm will correctly capture the target level set at the same cost complexity of uniformly approximating a $(d-1)$-dimensional function.</p>
+
+					</div>
+				</article>
+                
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
+                            
+						</div>
+                        
+						<h1 class="entry-title"></h1>
 					</header>
 					<div class="entry-content">
 						<h5 id="m-croci-_mixed-precision-explicit-runge-kutta-methods_-ima-leslie-fox-prize-event-glasgow-2023-downloadslideslesliefoxprize2023_26-06-23pdf"><strong>M. Croci, <em>Mixed-precision explicit Runge-Kutta methods</em>, IMA Leslie Fox Prize Event, Glasgow (2023).</strong> <a href="/slides/LeslieFoxPrize2023_26-06-23.pdf">Download</a>.</h5>

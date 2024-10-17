@@ -4,62 +4,65 @@
     <title>Talks on Matteo Croci</title>
     <link>https://croci.github.io/talks/</link>
     <description>Recent content in Talks on Matteo Croci</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 01 Feb 2021 12:00:00 +0000</lastBuildDate><atom:link href="https://croci.github.io/talks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Feb 2021 12:00:00 +0000</lastBuildDate>
+    <atom:link href="https://croci.github.io/talks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Selected Presentations</title>
+      <link>https://croci.github.io/talks/2024_06_14_fenics24_oslo/</link>
+      <pubDate>Mon, 01 Feb 2021 12:00:00 +0000</pubDate>
+      <guid>https://croci.github.io/talks/2024_06_14_fenics24_oslo/</guid>
+      <description>M. Croci, G. N. Wells, Reduced- and mixed-precision finite element kernels, FEniCS 2024. Simula Research Laboratory, Oslo, Norway, (2024). Download. In this talk we investigate the effect of rounding errors in the computation of finite element (FE) kernels and we develop strategies for reduced- and mixed-precision acceleration using half-precision floating point formats. Possible applications of this work include: reduced- and mixed-precision preconditioning, linear and nonlinear solvers, and timestepping methods.&#xA;The popularity of artificial intelligence has pushed for the design of computer architectures that are increasingly faster at performing computations using fewer bits.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://croci.github.io/talks/2024-05-16_oxford_na_seminar/</link>
+      <pubDate>Mon, 01 Feb 2021 12:00:00 +0000</pubDate>
+      <guid>https://croci.github.io/talks/2024-05-16_oxford_na_seminar/</guid>
+      <description>M. Croci, Multilevel Monte Carlo methods for the approximation of failure probability regions, Computational Mathematics and Applications Seminar, University of Oxford, UK (2024). Download. In this talk, we consider the problem of approximating failure regions. More specifically, given a costly computational model with random parameters and a failure condition, our objective is to determine the parameter region in which the failure condition is likely to not be satisfied. In mathematical terms, this problem can be cast as approximating the level set of a probability density function.</description>
+    </item>
+    <item>
+      <title></title>
       <link>https://croci.github.io/talks/imalesliefoxprize/</link>
       <pubDate>Mon, 01 Feb 2021 12:00:00 +0000</pubDate>
-      
       <guid>https://croci.github.io/talks/imalesliefoxprize/</guid>
       <description>M. Croci, Mixed-precision explicit Runge-Kutta methods, IMA Leslie Fox Prize Event, Glasgow (2023). Download. Motivated by the advent of machine learning, the last few years saw the return of hardware-supported reduced-precision computing. Computations with fewer digits are faster and more memory and energy efficient, but a careful implementation and rounding error analysis are required to ensure that sensible results can still be obtained. In this talk we focus on mixed-precision explicit Runge-Kutta (RK) methods.</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://croci.github.io/talks/srmp2021-2022/</link>
       <pubDate>Mon, 01 Feb 2021 12:00:00 +0000</pubDate>
-      
       <guid>https://croci.github.io/talks/srmp2021-2022/</guid>
       <description>M. Croci, Solving differential equations in reduced- and mixed-precision, Oden Institute, Yale University and Ecole Polytecnique Federale de Lausanne (2022). Download. Motivated by the advent of machine learning, the last few years saw the return of hardware-supported reduced-precision computing. Computations with fewer digits are faster and more memory and energy efficient, but a careful implementation and rounding error analysis are required to ensure that sensible results can still be obtained.</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://croci.github.io/talks/sr2020-21/</link>
       <pubDate>Mon, 01 Feb 2021 12:00:00 +0000</pubDate>
-      
       <guid>https://croci.github.io/talks/sr2020-21/</guid>
       <description>M. Croci and M. B. Giles, Solving parabolic PDEs in half precision, SIAM CSE 2021 and NLA Group meeting, University of Manchester (2020-2021). Download. Motivated by the advent of machine learning, the last few years saw the return of hardware-supported low-precision computing. Computations with fewer digits are faster and more memory and energy efficient, but can be extremely susceptible to rounding errors. An application that can largely benefit from the advantages of low-precision computing is the numerical solution of partial differential equations (PDEs), but a careful implementation and rounding error analysis are required to ensure that sensible results can still be obtained.</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://croci.github.io/talks/mlqmcbrain2021/</link>
       <pubDate>Fri, 01 Jan 2021 12:00:00 +0000</pubDate>
-      
       <guid>https://croci.github.io/talks/mlqmcbrain2021/</guid>
       <description>M. Croci, M. B. Giles, P. E. Farrell, M. E. Rognes, V. Vinje, Non-nested multilevel Monte Carlo methods with applications to brain simulation, Oden Institute (2021). Download. This talk consists of two parts. In the first, we develop two new strategies for spatial white noise and Gaussian-Matérn field sampling that work within a non-nested multilevel (quasi) Monte Carlo (ML(Q)MC) hierarchy. In the second, we apply the techniques developed to quantify the level of uncertainty in a new stochastic model for tracer transport in the brain.</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://croci.github.io/talks/siamcse2019/</link>
       <pubDate>Wed, 27 Feb 2019 12:00:00 +0000</pubDate>
-      
       <guid>https://croci.github.io/talks/siamcse2019/</guid>
       <description>M. Croci, M. B. Giles, M. E. Rognes, and P. E. Farrell, MLQMC Methods for Elliptic PDEs Driven by White Noise, SIAM CSE 2019, Spokane, USA and ICIAM 2019, Valencia, Spain. Download. When solving partial differential equations driven by additive spatial white noise, the efficient sampling of white noise realizations can be challenging. In this paper we focus on the efficient sampling of white noise using quasi-random points in a finite element method and multilevel Quasi Monte Carlo (MLQMC) setting.</description>
     </item>
-    
     <item>
       <title></title>
       <link>https://croci.github.io/talks/mcqmc2018/</link>
       <pubDate>Mon, 01 Jan 2018 12:00:00 +0000</pubDate>
-      
       <guid>https://croci.github.io/talks/mcqmc2018/</guid>
       <description>M. Croci, M. B. Giles, M. E. Rognes, and P. E. Farrell, Efficient white noise sampling and coupling for multilevel Monte Carlo, MCQMC 2018, Rennes, France. Download. When solving stochastic partial differential equations (SPDEs) driven by additive spatial white noise the efficient sampling of white noise realizations can be challenging. In this talk we present a novel sampling technique that can be used to efficiently compute white noise samples in a finite element and multilevel Monte Carlo (MLMC) setting.</description>
     </item>
-    
   </channel>
 </rss>

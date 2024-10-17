@@ -2,25 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://croci.github.io/talks/imalesliefoxprize/</loc>
-    <lastmod>2021-02-01T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://croci.github.io/talks/srmp2021-2022/</loc>
-    <lastmod>2021-02-01T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://croci.github.io/talks/sr2020-21/</loc>
-    <lastmod>2021-02-01T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://croci.github.io/talks/mlqmcbrain2021/</loc>
-    <lastmod>2021-01-01T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://croci.github.io/talks/siamcse2019/</loc>
-    <lastmod>2019-02-27T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://croci.github.io/talks/mcqmc2018/</loc>
-    <lastmod>2018-01-01T12:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://croci.github.io/teaching/</loc>
+  </url><url>
+    <loc>https://croci.github.io/publications/mpfem_preprint_2024/</loc>
+    <lastmod>2018-11-20T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://croci.github.io/publications/mlblue_2023/</loc>
     <lastmod>2018-11-20T12:00:00+00:00</lastmod>
@@ -28,29 +13,53 @@
     <loc>https://croci.github.io/publications/mprkc_2021/</loc>
     <lastmod>2018-11-20T12:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://croci.github.io/talks/2024_06_14_fenics24_oslo/</loc>
+    <lastmod>2021-02-01T12:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://croci.github.io/publications/shallow_waters2021/</loc>
     <lastmod>2018-11-20T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://croci.github.io/talks/2024-05-16_oxford_na_seminar/</loc>
+    <lastmod>2021-02-01T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://croci.github.io/publications/sr_review2021/</loc>
     <lastmod>2018-11-20T12:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://croci.github.io/talks/imalesliefoxprize/</loc>
+    <lastmod>2021-02-01T12:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://croci.github.io/publications/stochastic_rounding2020/</loc>
     <lastmod>2018-11-20T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://croci.github.io/talks/srmp2021-2022/</loc>
+    <lastmod>2021-02-01T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://croci.github.io/publications/mlqmc_white_noise2018/</loc>
     <lastmod>2018-11-20T12:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://croci.github.io/talks/sr2020-21/</loc>
+    <lastmod>2021-02-01T12:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://croci.github.io/publications/mlmc_qmc_brain_2020/</loc>
     <lastmod>2018-10-20T12:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://croci.github.io/talks/mlqmcbrain2021/</loc>
+    <lastmod>2021-01-01T12:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://croci.github.io/publications/quasi_uniform_supermeshing/</loc>
     <lastmod>2018-11-20T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://croci.github.io/talks/siamcse2019/</loc>
+    <lastmod>2019-02-27T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://croci.github.io/publications/uq_parenchymal_tracer_distribution2019/</loc>
     <lastmod>2018-11-20T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://croci.github.io/publications/efficient_white_noise2018/</loc>
     <lastmod>2018-11-20T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://croci.github.io/talks/mcqmc2018/</loc>
+    <lastmod>2018-01-01T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://croci.github.io/publications/semismooth_deflation2018/</loc>
     <lastmod>2018-11-20T12:00:00+00:00</lastmod>
