@@ -6,7 +6,7 @@
 	<meta name="description" content="">
 	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
 
-	<title></title>
+	<title>Publications</title>
 
 	<link rel="shortcut icon" href="https://croci.github.io/images/favicon.ico">
 
@@ -100,11 +100,24 @@
  						<div class="entry-meta">
                             
  						</div>
- 						<h1 class="entry-title"><a href="https://croci.github.io/publications/mpfem_preprint_2024/" rel="bookmark"></a></h1>
+ 						<h1 class="entry-title"><a href="https://croci.github.io/publications/level_set2025/" rel="bookmark">Publications</a></h1>
 					</header>
 					<div class="entry-content">
-						<h5 id="m-croci-g-n-wells-_mixed-precision-finite-element-kernels-and-assembly-rounding-error-analysis-and-hardware-acceleration_-preprint-2024-preprinthttparxivorgabs241012614-softwarehttpsgithubcomcrocimpfem-paper-experiments-2024"><strong>M. Croci, G. N. Wells, <em>Mixed-precision finite element kernels and assembly: Rounding error analysis and hardware acceleration</em>, Preprint (2024).</strong> <a href="http://arxiv.org/abs/2410.12614">Preprint</a>. <a href="https://github.com/croci/mpfem-paper-experiments-2024">Software</a>.</h5>
-<p>In this paper we develop the first fine-grained rounding error analysis of finite element (FE) cell kernels and assembly. The theory includes mixed-precision implementations and accounts for hardware-acceleration via matrix multiplication units, thus providing theoretical guidance for designing reduced- and mixed-precision FE algorithms on CPUs and GPUs.  Guided by this analysis, we introduce hardware-accelerated mixed-precision implementation strategies which are provably robust to low-precision computations. Indeed, these algorithms are accurate to the lower-precision unit roundoff with an error constant that is independent from: the conditioning of FE basis function evaluations, the ill-posedness of the cell, the polynomial degree, and the number of quadrature nodes.  Consequently, we present the first AMX-accelerated FE kernel implementations on Intel Sapphire Rapids CPUs.  Numerical experiments demonstrate that the proposed mixed- (single/half-) precision algorithms are up to 60 times faster than their double precision equivalent while being orders of magnitude more accurate than their fully half-precision counterparts.</p>
+						<h5 id="m-croci-a-l-haji-ali-i-c-j-powell-_an-adaptive-sampling-algorithm-for-level-set-approximation_-preprint-2025-preprinthttpsarxivorgabs250914896"><strong>M. Croci, A.-L. Haji-Ali, I. C. J. Powell, <em>An adaptive sampling algorithm for level-set approximation</em>, Preprint (2025).</strong> <a href="https://arxiv.org/abs/2509.14896">Preprint</a>.</h5>
+<p>We propose a new numerical scheme for approximating level-sets of Lipschitz
+multivariate functions which is robust to stochastic noise. The algorithm&rsquo;s
+main feature is an adaptive grid-based stochastic approximation strategy which
+automatically refines the approximation over regions close to the level set.
+This strategy combines a local function approximation method with a noise
+reduction scheme and produces $\varepsilon$-accurate approximations with an
+expected cost complexity reduction of $\varepsilon^{-(p+1)/(\alpha p)}$
+compared to a non-adaptive scheme, where $\alpha$ is the convergence rate of
+the function approximation method and we assume that the noise can be
+controlled in $L^p$. We provide numerical experiments in support of our
+theoretical findings. These include 2- and 3-dimensional functions with a
+complex level set structure, as well as a failure region estimation problem
+described by a hyperelasticity partial differential equation with random field
+coefficients.</p>
 
 					</div>
 				</article>

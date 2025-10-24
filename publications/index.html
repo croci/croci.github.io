@@ -104,6 +104,34 @@
 						<h1 class="entry-title">Publications</h1>
 					</header>
 					<div class="entry-content">
+						<h5 id="m-croci-a-l-haji-ali-i-c-j-powell-_an-adaptive-sampling-algorithm-for-level-set-approximation_-preprint-2025-preprinthttpsarxivorgabs250914896"><strong>M. Croci, A.-L. Haji-Ali, I. C. J. Powell, <em>An adaptive sampling algorithm for level-set approximation</em>, Preprint (2025).</strong> <a href="https://arxiv.org/abs/2509.14896">Preprint</a>.</h5>
+<p>We propose a new numerical scheme for approximating level-sets of Lipschitz
+multivariate functions which is robust to stochastic noise. The algorithm&rsquo;s
+main feature is an adaptive grid-based stochastic approximation strategy which
+automatically refines the approximation over regions close to the level set.
+This strategy combines a local function approximation method with a noise
+reduction scheme and produces $\varepsilon$-accurate approximations with an
+expected cost complexity reduction of $\varepsilon^{-(p+1)/(\alpha p)}$
+compared to a non-adaptive scheme, where $\alpha$ is the convergence rate of
+the function approximation method and we assume that the noise can be
+controlled in $L^p$. We provide numerical experiments in support of our
+theoretical findings. These include 2- and 3-dimensional functions with a
+complex level set structure, as well as a failure region estimation problem
+described by a hyperelasticity partial differential equation with random field
+coefficients.</p>
+
+					</div>
+				</article>
+                
+				<article class="post">
+					<header class="entry-header">
+						<div class="entry-meta">
+                            
+						</div>
+                        
+						<h1 class="entry-title"></h1>
+					</header>
+					<div class="entry-content">
 						<h5 id="m-croci-g-n-wells-_mixed-precision-finite-element-kernels-and-assembly-rounding-error-analysis-and-hardware-acceleration_-preprint-2024-preprinthttparxivorgabs241012614-softwarehttpsgithubcomcrocimpfem-paper-experiments-2024"><strong>M. Croci, G. N. Wells, <em>Mixed-precision finite element kernels and assembly: Rounding error analysis and hardware acceleration</em>, Preprint (2024).</strong> <a href="http://arxiv.org/abs/2410.12614">Preprint</a>. <a href="https://github.com/croci/mpfem-paper-experiments-2024">Software</a>.</h5>
 <p>In this paper we develop the first fine-grained rounding error analysis of finite element (FE) cell kernels and assembly. The theory includes mixed-precision implementations and accounts for hardware-acceleration via matrix multiplication units, thus providing theoretical guidance for designing reduced- and mixed-precision FE algorithms on CPUs and GPUs.  Guided by this analysis, we introduce hardware-accelerated mixed-precision implementation strategies which are provably robust to low-precision computations. Indeed, these algorithms are accurate to the lower-precision unit roundoff with an error constant that is independent from: the conditioning of FE basis function evaluations, the ill-posedness of the cell, the polynomial degree, and the number of quadrature nodes.  Consequently, we present the first AMX-accelerated FE kernel implementations on Intel Sapphire Rapids CPUs.  Numerical experiments demonstrate that the proposed mixed- (single/half-) precision algorithms are up to 60 times faster than their double precision equivalent while being orders of magnitude more accurate than their fully half-precision counterparts.</p>
 
@@ -229,23 +257,6 @@ In this paper we study the accumulation of rounding errors in the solution of th
 					<div class="entry-content">
 						<h5 id="m-croci-and-p-e-farrell-_complexity-bounds-on-supermesh-construction-for-quasi-uniform-meshes_-journal-of-computational-physics-414-2020-pp-17-articlehttpswwwsciencedirectcomsciencearticlepiis0021999120302333-preprinthttpsarxivorgabs191111589"><strong>M. Croci and P. E. Farrell, <em>Complexity bounds on supermesh construction for quasi-uniform meshes</em>, Journal of Computational Physics 414 (2020), pp. 1–7.</strong> <a href="https://www.sciencedirect.com/science/article/pii/S0021999120302333">Article</a>. <a href="https://arxiv.org/abs/1911.11589">Preprint</a>.</h5>
 <p>Projecting fields between different meshes commonly arises in computational physics. This operation may require a supermesh construction and in this case its computational cost is proportional to the number of cells of the supermesh n. Given any two quasi-uniform meshes of nA and nB cells respectively, we show under standard assumptions that n is proportional to nA + nB. This result substantially improves on the best currently available upper bound on n and is fundamental for the analysis of algorithms that use supermeshes.</p>
-
-					</div>
-				</article>
-                
-				<article class="post">
-					<header class="entry-header">
-						<div class="entry-meta">
-                            
-						</div>
-                        
-						<h1 class="entry-title"></h1>
-					</header>
-					<div class="entry-content">
-						<h5 id="m-croci-v-vinje-m-e-rognes-_uncertainty-quantification-of-parenchymal-tracer-distribution-using-random-diffusion-and-convective-velocity-fields_-fluids-and-barriers-of-the-cns-16-1-2019-pp-1-32-articlehttpsfluidsbarrierscnsbiomedcentralcomarticles101186s12987-019-0152-7"><strong>M. Croci, V. Vinje, M. E. Rognes, <em>Uncertainty quantification of parenchymal tracer distribution using random diffusion and convective velocity fields</em>, Fluids and Barriers of the CNS 16-1 (2019), pp. 1-32.</strong> <a href="https://fluidsbarrierscns.biomedcentral.com/articles/10.1186/s12987-019-0152-7">Article</a>.</h5>
-<p><strong>Background</strong>: Influx and clearance of substances in the brain parenchyma occur by a combination of diffusion and convection, but the relative importance of thiese mechanisms is unclear.  Accurate modeling of tracer distributions in the brain relies on parameters that are partially unknown and with literature values varying up to 7 orders of magnitude. In this work, we rigorously quantified the variability of tracer enhancement in the brain resulting from uncertainty in diffusion and convection model parameters.<br>
-<strong>Methods</strong>: In a mesh of a human brain, using the convection-diffusion-reaction equation, we simulated tracer enhancement in the brain parenchyma after intrathecal injection. Several models were tested to assess the uncertainty both in type of diffusion and velocity fields and also the importance of their magnitude. Our results were compared with experimental MRI results of tracer enhancement.<br>
-<strong>Results</strong>: In models of pure diffusion, the expected amount of tracer in the gray matter reached peak value after 15 hours, while the white matter does not reach peak within 24 hours with high likelihood. Models of the glymphatic system behave qualitatively similar as the models of pure diffusion with respect to expected time to peak but display less variability. However, the expected time to peak was reduced to 11 hours when an additional directionality was prescribed for the glymphatic circulation. In a model including drainage directly from the brain parenchyma, time to peak occured after 6-8 hours for the gray matter.  Conclusion: Even when uncertainties are taken into account, we find that diffusion alone is not sufficient to explain transport of tracer deep into the white matter as seen in experimental data. A glymphatic velocity field may increase transport if a directional structure is included in the glymphatic circulation</p>
 
 					</div>
 				</article>
